@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    {
+      "item": "gems:raw_green_painite"
+    },
+    {
+      "item": "gems:raw_green_painite"
+    },
+    {
+      "item": "gems:raw_green_painite"
+    },
+    {
+      "item": "gems:raw_green_painite"
+    },
+    {
+      "item": "minecraft:emerald_block"
+    },
+    {
+      "item": "minecraft:emerald_block"
+    },
+    {
+      "item": "minecraft:slime_block"
+    },
+    {
+      "item": "minecraft:slime_block"
+    }
+  ],
+  "result": {
+    "item": "gems:green_painite"
+  }
+}

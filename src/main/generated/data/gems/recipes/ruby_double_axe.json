@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "gems:ruby"
+  },
+  "base": {
+    "item": "minecraft:netherite_axe"
+  },
+  "result": {
+    "item": "gems:ruby_double_axe"
+  },
+  "template": {
+    "item": "gems:nether_gem_upgrade"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    {
+      "item": "gems:ruby_paw"
+    },
+    {
+      "item": "gems:ruby_paw"
+    },
+    {
+      "item": "gems:ruby_paw"
+    },
+    {
+      "item": "gems:ruby_paw"
+    },
+    {
+      "item": "minecraft:redstone_block"
+    },
+    {
+      "item": "minecraft:redstone_block"
+    },
+    {
+      "item": "minecraft:redstone_block"
+    },
+    {
+      "item": "minecraft:redstone_block"
+    },
+    {
+      "item": "minecraft:redstone_block"
+    }
+  ],
+  "result": {
+    "item": "gems:ruby"
+  }
+}

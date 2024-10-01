@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    {
+      "item": "gems:pumpkin_berries"
+    },
+    {
+      "item": "gems:pumpkin_berries"
+    },
+    {
+      "item": "gems:pumpkin_berries"
+    },
+    {
+      "item": "gems:pumpkin_berries"
+    },
+    {
+      "item": "minecraft:pumpkin"
+    },
+    {
+      "item": "minecraft:pumpkin"
+    },
+    {
+      "item": "minecraft:carved_pumpkin"
+    },
+    {
+      "item": "minecraft:moss_block"
+    },
+    {
+      "item": "minecraft:moss_block"
+    }
+  ],
+  "result": {
+    "item": "gems:pumpkin_gem"
+  }
+}

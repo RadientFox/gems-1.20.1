@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    {
+      "item": "gems:raw_sapphire"
+    },
+    {
+      "item": "gems:raw_sapphire"
+    },
+    {
+      "item": "gems:raw_sapphire"
+    },
+    {
+      "item": "gems:raw_sapphire"
+    },
+    {
+      "item": "minecraft:blue_ice"
+    },
+    {
+      "item": "minecraft:blue_ice"
+    },
+    {
+      "item": "minecraft:blue_ice"
+    },
+    {
+      "item": "minecraft:blue_ice"
+    },
+    {
+      "item": "minecraft:blue_ice"
+    }
+  ],
+  "result": {
+    "item": "gems:sapphire"
+  }
+}

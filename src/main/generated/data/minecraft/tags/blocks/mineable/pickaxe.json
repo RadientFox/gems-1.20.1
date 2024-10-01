@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "gems:ruby_block",
+    "gems:ruby_ore",
+    "gems:blue_obsidian"
+  ]
+}

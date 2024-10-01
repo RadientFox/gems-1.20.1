@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "gems:block/pumpkin_debris_top",
+    "side": "gems:block/pumpkin_debris_side"
+  }
+}

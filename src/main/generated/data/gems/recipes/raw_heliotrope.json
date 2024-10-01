@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    {
+      "item": "gems:raw_heliotrope"
+    },
+    {
+      "item": "gems:raw_heliotrope"
+    },
+    {
+      "item": "gems:raw_heliotrope"
+    },
+    {
+      "item": "gems:raw_heliotrope"
+    },
+    {
+      "item": "minecraft:copper_block"
+    },
+    {
+      "item": "minecraft:copper_block"
+    },
+    {
+      "item": "minecraft:copper_block"
+    },
+    {
+      "item": "minecraft:copper_block"
+    },
+    {
+      "item": "minecraft:copper_block"
+    }
+  ],
+  "result": {
+    "item": "gems:heliotrope"
+  }
+}

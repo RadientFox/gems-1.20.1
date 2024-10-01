@@ -1,0 +1,83 @@
+{
+
+  "itemgroup.geems": "Gems SMP",
+
+  "item.gems.ruby": "Ruby",
+  "item.gems.ruby_paw": "Ruby Paw",
+  "block.gems.ruby_block": "Block of Ruby",
+  "block.gems.ruby_ore": "Ruby Ore",
+  "item.gems.ruby_scythe": "Sanguine Vessel: Rosethorn Reaper",
+  "item.gems.ruby_double_axe": "Axe of the Crimson Abyss",
+  "item.gems.ruby_pickaxe": "Flamevein",
+  "item.gems.ruby_hoe": "Scarlet Tiller",
+  "item.gems.ruby_shovel": "Bloodvein Spade",
+  "item.gems.ruby_helmet": "Ruby Helmet",
+  "item.gems.ruby_chestplate": "Ruby Chestplate",
+  "item.gems.ruby_leggings": "Ruby Leggings",
+  "item.gems.ruby_boots": "Ruby Boots",
+
+  "item.gems.sapphire": "Sapphire",
+  "item.gems.raw_sapphire": "Raw Sapphire",
+  "block.gems.sapphire_block": "Block of Sapphire",
+  "block.gems.sapphire_ore": "Sapphire Ore",
+  "item.gems.sapphire_sword": "Sapphire Sword",
+  "item.gems.sapphire_axe": "Sapphire Axe",
+  "item.gems.sapphire_pickaxe": "Sapphire Pickaxe",
+  "item.gems.sapphire_hoe": "Sapphire Hoe",
+  "item.gems.sapphire_shovel": "Sapphire Shovel",
+
+  "item.gems.galaxium": "Galaxium",
+  "item.gems.raw_galaxium": "Raw Galaxium",
+  "block.gems.blue_obsidian": "Blue Obsidian",
+  "block.gems.galaxium_block": "Block of Galaxium",
+  "block.gems.galaxium_ore": "Galaxium Ore",
+
+  "item.gems.pietersite": "Pietersite",
+  "item.gems.raw_pietersite": "Raw Pietersite",
+  "block.gems.pietersite_block": "Block of Pietersite",
+  "block.gems.pietersite_ore": "Pietersite Ore",
+
+  "item.gems.heliotrope": "Heliotrope",
+  "item.gems.raw_heliotrope": "Raw Heliotrope",
+  "block.gems.heliotrope_block": "Block of Heliotrope",
+  "block.gems.heliotrope_ore": "Heliotrope Ore",
+
+  "item.gems.pumpkin_gem": "Pumpkin Gem",
+  "item.gems.pumpkin_berries": "Pumpkin Berries",
+  "block.gems.pumpkin_block": "Block of Pumpkin",
+  "block.gems.pumpkin_debris": "Pumpkin Debris",
+
+  "item.gems.spinel": "Spinel",
+  "item.gems.raw_spinel": "Raw Spinel",
+  "block.gems.spinel_block": "Block of Spinel",
+  "block.gems.spinel_ore": "Spinel Ore",
+
+  "item.gems.mushroom_gem": "Mushroom Gem",
+  "item.gems.raw_mushroom": "Raw Mushroom",
+  "block.gems.mushroom_gem_block": "Block of Mushroom Gem",
+  "block.gems.mushroom_ore": "Mushroom Ore",
+
+  "item.gems.green_painite": "Green Painite",
+  "item.gems.raw_green_painite": "Raw Green Painite",
+  "block.gems.green_painite_block": "Block of Green Painite",
+  "block.gems.green_painite_ore": "Green Painite Ore",
+
+  "item.gems.asterism": "Asterism ",
+  "item.gems.unbonded_asterism": "Unbonded Asterism",
+  "block.gems.asterism_block": "Block of Asterism",
+  "block.gems.asterism_ore": "Asterism Ore",
+
+
+  "item.gems.end_gem_upgrade": "End Upgrade",
+  "item.gems.nether_gem_upgrade": "Nether Upgrade",
+  "item.gems.overworld_gem_upgrade": "Overworld Upgrade",
+
+  "item.gems.gay_helmet": "test Helmet",
+  "item.gems.gay_chestplate": "test Chestplate",
+  "item.gems.gay_leggings": "test Leggings",
+  "item.gems.gay_boots": "test Boots",
+  "item.gems.aura_katana":"Genesis Blade"
+
+
+
+}

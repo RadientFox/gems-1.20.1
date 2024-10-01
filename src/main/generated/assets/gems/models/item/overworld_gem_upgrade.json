@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "gems:item/overworld_gem_upgrade"
+  }
+}

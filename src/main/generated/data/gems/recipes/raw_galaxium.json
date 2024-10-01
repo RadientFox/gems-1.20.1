@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    {
+      "item": "gems:raw_galaxium"
+    },
+    {
+      "item": "gems:raw_galaxium"
+    },
+    {
+      "item": "gems:raw_galaxium"
+    },
+    {
+      "item": "gems:raw_galaxium"
+    },
+    {
+      "item": "gems:blue_obsidian"
+    },
+    {
+      "item": "gems:blue_obsidian"
+    },
+    {
+      "item": "gems:blue_obsidian"
+    },
+    {
+      "item": "gems:blue_obsidian"
+    },
+    {
+      "item": "gems:blue_obsidian"
+    }
+  ],
+  "result": {
+    "item": "gems:galaxium"
+  }
+}

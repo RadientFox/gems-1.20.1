@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    {
+      "item": "gems:raw_spinel"
+    },
+    {
+      "item": "gems:raw_spinel"
+    },
+    {
+      "item": "gems:raw_spinel"
+    },
+    {
+      "item": "gems:raw_spinel"
+    },
+    {
+      "item": "minecraft:iron_block"
+    },
+    {
+      "item": "minecraft:iron_block"
+    },
+    {
+      "item": "minecraft:anvil"
+    },
+    {
+      "item": "minecraft:gold_block"
+    },
+    {
+      "item": "minecraft:gold_block"
+    }
+  ],
+  "result": {
+    "item": "gems:spinel"
+  }
+}

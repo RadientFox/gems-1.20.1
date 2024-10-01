@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "L": {
+      "item": "minecraft:lapis_block"
+    },
+    "O": {
+      "item": "minecraft:obsidian"
+    }
+  },
+  "pattern": [
+    "OOO",
+    "OLO",
+    "OOO"
+  ],
+  "result": {
+    "item": "gems:blue_obsidian"
+  },
+  "show_notification": true
+}

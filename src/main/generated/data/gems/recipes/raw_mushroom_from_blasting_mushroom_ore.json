@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 300,
+  "experience": 1.0,
+  "group": "mushroom_gem",
+  "ingredient": {
+    "item": "gems:mushroom_ore"
+  },
+  "result": "gems:raw_mushroom"
+}

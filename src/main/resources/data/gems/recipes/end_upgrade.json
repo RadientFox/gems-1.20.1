@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "tag": "gems:end_gemstones"
+  },
+  "base": {
+    "item": "minecraft:netherite_upgrade_smithing_template"
+  },
+  "result": {
+    "item": "gems:end_gem_upgrade"
+  },
+  "template": {
+    "item": "minecraft:spire_armor_trim_smithing_template"
+  }
+}

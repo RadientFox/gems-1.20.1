@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "M": {
+      "item": "minecraft:purpur_block"
+    },
+    "N": {
+      "item": "minecraft:netherite_scrap"
+    },
+    "U": {
+      "item": "gems:end_gem_upgrade"
+    }
+  },
+  "pattern": [
+    "NUN",
+    "NMN",
+    "NNN"
+  ],
+  "result": {
+    "count": 2,
+    "item": "gems:end_gem_upgrade"
+  },
+  "show_notification": true
+}

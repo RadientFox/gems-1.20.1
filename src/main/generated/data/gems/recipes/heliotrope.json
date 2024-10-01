@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "gems:heliotrope_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "gems:heliotrope"
+  }
+}

@@ -1,0 +1,3 @@
+// 1.20.1	2024-09-30T07:35:50.9463656	Gems/Tags for minecraft:block
+f04182ffcd4ed1b1ec4e35b76f7a3283a27e4bb4 data\minecraft\tags\blocks\mineable\pickaxe.json
+d1cc8f448b4c37fd409509e8b9faef14b9ececa7 data\fabric\tags\blocks\needs_tool_level_4.json

@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "gems:sapphire"
+  },
+  "base": {
+    "item": "minecraft:netherite_sword"
+  },
+  "result": {
+    "item": "gems:sapphire_sword"
+  },
+  "template": {
+    "item": "gems:overworld_gem_upgrade"
+  }
+}

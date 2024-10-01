@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 300,
+  "experience": 1.0,
+  "group": "pumpkin",
+  "ingredient": {
+    "item": "gems:pumpkin_debris"
+  },
+  "result": "gems:pumpkin_berries"
+}

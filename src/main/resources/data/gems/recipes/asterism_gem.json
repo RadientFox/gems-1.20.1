@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "combat",
+  "group": "asterism",
+  "ingredients": [
+    {
+      "item": "gems:unbonded_asterism"
+    },
+    {
+      "item": "gems:unbonded_asterism"
+    },
+    {
+      "item": "gems:unbonded_asterism"
+    },
+    {
+      "item": "gems:unbonded_asterism"
+    },
+    {
+      "tag": "gems:end_gemstones"
+    },
+    {
+      "tag": "gems:nether_gemstones"
+    },
+    {
+      "tag": "gems:overworld_gemstones"
+    },
+    {
+      "item": "minecraft:netherite_ingot"
+    }
+  ],
+  "result": {
+    "item": "gems:asterism"
+  }
+}

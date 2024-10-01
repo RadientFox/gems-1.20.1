@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 300,
+  "experience": 1.0,
+  "group": "heliotrope",
+  "ingredient": {
+    "item": "gems:heliotrope_ore"
+  },
+  "result": "gems:raw_heliotrope"
+}

@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "gems:block/mushroom_gem_block"
+    }
+  }
+}

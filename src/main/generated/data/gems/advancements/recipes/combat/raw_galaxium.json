@@ -1,0 +1,48 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_blue_obsidian": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "gems:blue_obsidian"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_raw_galaxium": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "gems:raw_galaxium"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:raw_galaxium"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_blue_obsidian",
+      "has_raw_galaxium",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:raw_galaxium"
+    ]
+  },
+  "sends_telemetry_event": false
+}
