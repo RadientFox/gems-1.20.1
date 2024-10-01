@@ -8,7 +8,6 @@ import net.minecraft.data.client.Models;
 import net.minecraft.item.ArmorItem;
 import net.radient.gems.block.ModBlocks;
 import net.radient.gems.item.ModItems;
-import net.radient.gems.item.custom.GayArmorItem;
 
 public class ModModelProvider extends FabricModelProvider {
     public ModModelProvider(FabricDataOutput output) {
@@ -94,13 +93,29 @@ public class ModModelProvider extends FabricModelProvider {
     itemModelGenerator.register(ModItems.RAW_GALAXIUM, Models.GENERATED);
     itemModelGenerator.register(ModItems.GALAXIUM, Models.GENERATED);
 
+    itemModelGenerator.register(ModItems.GALAXIUM_PICKAXE, Models.HANDHELD);
+    itemModelGenerator.register(ModItems.GALAXIUM_SHOVEL, Models.HANDHELD);
+    itemModelGenerator.register(ModItems.GALAXIUM_HOE, Models.HANDHELD);
+    itemModelGenerator.register(ModItems.GALAXIUM_SWORD, Models.HANDHELD);
+    itemModelGenerator.register(ModItems.GALAXIUM_AXE, Models.HANDHELD);
+
     //pietersite
         itemModelGenerator.register(ModItems.RAW_PIETERSITE, Models.GENERATED);
         itemModelGenerator.register(ModItems.PIETERSITE, Models.GENERATED);
 
+        itemModelGenerator.register(ModItems.PIETERSITE_PICKAXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.PIETERSITE_SHOVEL, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.PIETERSITE_HOE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.PIETERSITE_AXE, Models.HANDHELD);
+
         //heliotrope
         itemModelGenerator.register(ModItems.RAW_HELIOTRPE, Models.GENERATED);
         itemModelGenerator.register(ModItems.HELIOTROPE, Models.GENERATED);
+
+        itemModelGenerator.register(ModItems.HELIOTROPE_PICKAXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.HELIOTROPE_SHOVEL, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.HELIOTROPE_HOE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.HELIOTROPE_AXE, Models.HANDHELD);
 
         //pumpkin
         itemModelGenerator.register(ModItems.PUMPKIN_BERRIES, Models.GENERATED);

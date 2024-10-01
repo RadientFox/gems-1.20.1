@@ -2,6 +2,8 @@
 
   "itemgroup.geems": "Gems SMP",
 
+  "tags.gems.end_gemstones": "End Gemstones",
+
   "item.gems.ruby": "Ruby",
   "item.gems.ruby_paw": "Ruby Paw",
   "block.gems.ruby_block": "Block of Ruby",
@@ -31,16 +33,31 @@
   "block.gems.blue_obsidian": "Blue Obsidian",
   "block.gems.galaxium_block": "Block of Galaxium",
   "block.gems.galaxium_ore": "Galaxium Ore",
+  "item.gems.galaxium_sword": "Galaxium Sword",
+  "item.gems.galaxium_axe": "Galaxium Axe",
+  "item.gems.galaxium_pickaxe": "Galaxium Pickaxe",
+  "item.gems.galaxium_hoe": "Galaxium Hoe",
+  "item.gems.galaxium_shovel": "Galaxium Shovel",
 
   "item.gems.pietersite": "Pietersite",
   "item.gems.raw_pietersite": "Raw Pietersite",
   "block.gems.pietersite_block": "Block of Pietersite",
   "block.gems.pietersite_ore": "Pietersite Ore",
+  "item.gems.pietersite_coral_blade": "Pietersite Sword",
+  "item.gems.pietersite_axe": "Pietersite Axe",
+  "item.gems.pietersite_pickaxe": "Pietersite Pickaxe",
+  "item.gems.pietersite_hoe": "Pietersite Hoe",
+  "item.gems.pietersite_shovel": "Pietersite Shovel",
 
   "item.gems.heliotrope": "Heliotrope",
   "item.gems.raw_heliotrope": "Raw Heliotrope",
   "block.gems.heliotrope_block": "Block of Heliotrope",
   "block.gems.heliotrope_ore": "Heliotrope Ore",
+  "item.gems.bloodstone_claymore": "Heliotrope Sword",
+  "item.gems.heliotrope_axe": "Heliotrope Axe",
+  "item.gems.heliotrope_pickaxe": "Heliotrope Pickaxe",
+  "item.gems.heliotrope_hoe": "Heliotrope Hoe",
+  "item.gems.heliotrope_shovel": "Heliotrope Shovel",
 
   "item.gems.pumpkin_gem": "Pumpkin Gem",
   "item.gems.pumpkin_berries": "Pumpkin Berries",

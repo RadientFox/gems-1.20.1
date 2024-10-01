@@ -3,6 +3,7 @@ package net.radient.gems.datagen;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricBlockLootTableProvider;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricLootTableProvider;
+import net.minecraft.loot.LootTable;
 import net.radient.gems.block.ModBlocks;
 
 public class ModLootTableProvider extends FabricBlockLootTableProvider {
@@ -32,7 +33,8 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.GREEN_PAINITE_BLOCK);
         addDrop(ModBlocks.GREEN_PANITE_ORE);
         addDrop(ModBlocks.ASTERISM_BLOCK);
-        addDrop(ModBlocks.ASTERISM_ORE);
+
+
 
     }
 }

@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "gems:blocks/raw_gems",
+          "weight": 5,
+          "quality": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "gems:asterism_ore",
+          "weight": 95,
+          "quality": 1
+        }
+      ]
+    }
+  ]
+}

@@ -42,15 +42,15 @@ public class ModItems {
     public static final Item SAPPHIRE = registerItem("sapphire",new Item(new FabricItemSettings().rarity(Rarity.EPIC).fireproof()));
     public static final Item RAW_SAPPHIRE = registerItem("raw_sapphire",new Item(new FabricItemSettings().rarity(Rarity.UNCOMMON).fireproof()));
 
-    public static  final Item SAPPHIRE_SWORD = registerItem("sapphire_sword", new SapphireSwordtem(ModToolMaterial.RUBY, 9,-2.4F,
+    public static  final Item SAPPHIRE_SWORD = registerItem("sapphire_sword", new SapphireSwordtem(ModToolMaterial.SAPPHIRE, 9,-2.4F,
             new FabricItemSettings()));
-    public static  final Item SAPPHIRE_PICKAXE = registerItem("sapphire_pickaxe", new PickaxeItem(ModToolMaterial.RUBY, 5,-2.8F,
+    public static  final Item SAPPHIRE_PICKAXE = registerItem("sapphire_pickaxe", new PickaxeItem(ModToolMaterial.SAPPHIRE, 5,-2.8F,
             new FabricItemSettings()));
-    public static  final Item SAPPHIRE_AXE = registerItem("sapphire_axe", new SapphireAxetem(ModToolMaterial.RUBY, 11,-3.0F,
+    public static  final Item SAPPHIRE_AXE = registerItem("sapphire_axe", new SapphireAxetem(ModToolMaterial.SAPPHIRE, 11,-3.0F,
             new FabricItemSettings()));
-    public static  final Item SAPPHIRE_HOE = registerItem("sapphire_hoe", new HoeItem(ModToolMaterial.RUBY, -1,0.0f,
+    public static  final Item SAPPHIRE_HOE = registerItem("sapphire_hoe", new HoeItem(ModToolMaterial.SAPPHIRE, -1,0.0f,
             new FabricItemSettings()));
-    public static  final Item SAPPHIRE_SHOVEL = registerItem("sapphire_shovel", new ShovelItem(ModToolMaterial.RUBY, 2,-3.0F,
+    public static  final Item SAPPHIRE_SHOVEL = registerItem("sapphire_shovel", new ShovelItem(ModToolMaterial.SAPPHIRE, 2,-3.0F,
             new FabricItemSettings()));
 
 
@@ -59,15 +59,50 @@ public class ModItems {
     public static final Item GALAXIUM = registerItem("galaxium",new Item(new FabricItemSettings().rarity(Rarity.EPIC).fireproof()));
     public static final Item RAW_GALAXIUM = registerItem("raw_galaxium",new Item(new FabricItemSettings().rarity(Rarity.UNCOMMON).fireproof()));
 
+    public static  final Item GALAXIUM_SWORD = registerItem("galaxium_sword", new GalaxiumSwordtem(ModToolMaterial.GALAXIUM, 9,-2.4F,
+            new FabricItemSettings()));
+    public static  final Item GALAXIUM_PICKAXE = registerItem("galaxium_pickaxe", new PickaxeItem(ModToolMaterial.GALAXIUM, 5,-2.8F,
+            new FabricItemSettings()));
+    public static  final Item GALAXIUM_AXE = registerItem("galaxium_axe", new GalaxiumAxetem(ModToolMaterial.GALAXIUM, 11,-3.0F,
+            new FabricItemSettings()));
+    public static  final Item GALAXIUM_HOE = registerItem("galaxium_hoe", new HoeItem(ModToolMaterial.GALAXIUM, -1,0.0f,
+            new FabricItemSettings()));
+    public static  final Item GALAXIUM_SHOVEL = registerItem("galaxium_shovel", new ShovelItem(ModToolMaterial.GALAXIUM, 2,-3.0F,
+            new FabricItemSettings()));
+
+
 //Pietersite
 
     public static final Item PIETERSITE = registerItem("pietersite",new Item(new FabricItemSettings().rarity(Rarity.EPIC).fireproof()));
     public static final Item RAW_PIETERSITE = registerItem("raw_pietersite",new Item(new FabricItemSettings().rarity(Rarity.UNCOMMON).fireproof()));
 
+    public static  final Item PIETERSITE_SWORD = registerItem("pietersite_coral_blade", new SwordItem(ModToolMaterial.GALAXIUM, 9,-2.4F,
+            new FabricItemSettings()));
+    public static  final Item PIETERSITE_PICKAXE = registerItem("pietersite_pickaxe", new PickaxeItem(ModToolMaterial.GALAXIUM, 5,-2.8F,
+            new FabricItemSettings()));
+    public static  final Item PIETERSITE_AXE = registerItem("pietersite_axe", new AxeItem(ModToolMaterial.GALAXIUM, 11,-3.0F,
+            new FabricItemSettings()));
+    public static  final Item PIETERSITE_HOE = registerItem("pietersite_hoe", new HoeItem(ModToolMaterial.GALAXIUM, -1,0.0f,
+            new FabricItemSettings()));
+    public static  final Item PIETERSITE_SHOVEL = registerItem("pietersite_shovel", new ShovelItem(ModToolMaterial.GALAXIUM, 2,-3.0F,
+            new FabricItemSettings()));
 
-//Heliotrope
+
+    //Heliotrope
 public static final Item HELIOTROPE = registerItem("heliotrope",new Item(new FabricItemSettings().rarity(Rarity.EPIC).fireproof()));
 public static final Item RAW_HELIOTRPE = registerItem("raw_heliotrope",new Item(new FabricItemSettings().rarity(Rarity.UNCOMMON).fireproof()));
+
+    public static  final Item BLOODSTONE_CLAYMORE = registerItem("bloodstone_claymore", new HeliotropeSwordtem(ModToolMaterial.GALAXIUM, 9,-2.4F,
+            new FabricItemSettings()));
+    public static  final Item HELIOTROPE_PICKAXE = registerItem("heliotrope_pickaxe", new PickaxeItem(ModToolMaterial.GALAXIUM, 5,-2.8F,
+            new FabricItemSettings()));
+    public static  final Item HELIOTROPE_AXE = registerItem("heliotrope_axe", new HeliotopeAxetem(ModToolMaterial.GALAXIUM, 11,-3.0F,
+            new FabricItemSettings()));
+    public static  final Item HELIOTROPE_HOE = registerItem("heliotrope_hoe", new HoeItem(ModToolMaterial.GALAXIUM, -1,0.0f,
+            new FabricItemSettings()));
+    public static  final Item HELIOTROPE_SHOVEL = registerItem("heliotrope_shovel", new ShovelItem(ModToolMaterial.GALAXIUM, 2,-3.0F,
+            new FabricItemSettings()));
+
 
 
 //pumpkin

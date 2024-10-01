@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "gems:ruby_paw"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "gems:raw_sapphire"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "gems:raw_galaxium"
+        },
+        {
+          "type": "minecraft:item",
+          "name":  "gems:raw_pietersite"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "gems:raw_heliotrope"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "gems:pumpkin_berries"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "gems:raw_spinel"
+        }
+      ]
+    }
+  ]
+}

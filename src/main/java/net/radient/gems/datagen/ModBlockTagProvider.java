@@ -22,13 +22,47 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
         getOrCreateTagBuilder(BlockTags.PICKAXE_MINEABLE)
                 .add(ModBlocks.RUBY_BLOCK)
                 .add(ModBlocks.RUBY_ORE)
-                .add(ModBlocks.BLUE_OBSIDIAN);
+                .add(ModBlocks.BLUE_OBSIDIAN)
+                .add(ModBlocks.GALAXIUM_BLOCK)
+                .add(ModBlocks.GALAXIUM_ORE)
+                .add(ModBlocks.PIETERSITE_BLOCK)
+                .add(ModBlocks.PIETERSITE_ORE)
+                .add(ModBlocks.HELIOTROPE_BLOCK)
+                .add(ModBlocks.HELIOTROPE_ORE)
+                .add(ModBlocks.PUMPKIN_BLOCK)
+                .add(ModBlocks.PUMPKIN_DEBRIS)
+                .add(ModBlocks.SPINEL_BLOCK)
+                .add(ModBlocks.SPINEL_ORE)
+                .add(ModBlocks.MUSHROOM_GEM_BLOCK)
+                .add(ModBlocks.MUSHROOM_ORE)
+                .add(ModBlocks.GREEN_PAINITE_BLOCK)
+                .add(ModBlocks.GREEN_PANITE_ORE)
+                .add(ModBlocks.ASTERISM_BLOCK)
+                .add(ModBlocks.ASTERISM_ORE);
 
 
         getOrCreateTagBuilder(TagKey.of(RegistryKeys.BLOCK, new Identifier("fabric","needs_tool_level_4")))
                 .add(ModBlocks.RUBY_ORE)
                 .add(ModBlocks.RUBY_BLOCK)
-                .add(ModBlocks.BLUE_OBSIDIAN);
+                .add(ModBlocks.BLUE_OBSIDIAN)
+                .add(ModBlocks.SAPPHIRE_BLOCK)
+                .add(ModBlocks.SAPPHIRE_ORE)
+                .add(ModBlocks.GALAXIUM_BLOCK)
+                .add(ModBlocks.GALAXIUM_ORE)
+                .add(ModBlocks.PIETERSITE_BLOCK)
+                .add(ModBlocks.PIETERSITE_ORE)
+                .add(ModBlocks.HELIOTROPE_BLOCK)
+                .add(ModBlocks.HELIOTROPE_ORE)
+                .add(ModBlocks.PUMPKIN_BLOCK)
+                .add(ModBlocks.PUMPKIN_DEBRIS)
+                .add(ModBlocks.SPINEL_BLOCK)
+                .add(ModBlocks.SPINEL_ORE)
+                .add(ModBlocks.MUSHROOM_GEM_BLOCK)
+                .add(ModBlocks.MUSHROOM_ORE)
+                .add(ModBlocks.GREEN_PAINITE_BLOCK)
+                .add(ModBlocks.GREEN_PANITE_ORE)
+                .add(ModBlocks.ASTERISM_BLOCK)
+                .add(ModBlocks.ASTERISM_ORE);
 
 
     }

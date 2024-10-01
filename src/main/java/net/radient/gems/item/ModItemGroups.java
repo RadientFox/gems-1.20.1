@@ -2,7 +2,6 @@ package net.radient.gems.item;
 
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.minecraft.item.ItemGroup;
-import net.minecraft.item.ItemGroups;
 import net.minecraft.item.ItemStack;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
@@ -45,16 +44,32 @@ entries.add(ModItems.RAW_GALAXIUM);
 entries.add(ModBlocks.BLUE_OBSIDIAN);
 entries.add(ModBlocks.GALAXIUM_BLOCK);
 entries.add(ModBlocks.GALAXIUM_ORE);
+entries.add(ModItems.GALAXIUM_SWORD);
+entries.add(ModItems.GALAXIUM_AXE);
+entries.add(ModItems.GALAXIUM_HOE);
+entries.add(ModItems.GALAXIUM_SHOVEL);
+entries.add(ModItems.GALAXIUM_PICKAXE);
 
 entries.add(ModItems.PIETERSITE);
 entries.add(ModItems.RAW_PIETERSITE);
 entries.add(ModBlocks.PIETERSITE_BLOCK);
 entries.add(ModBlocks.PIETERSITE_ORE);
+entries.add(ModItems.PIETERSITE_SWORD);
+entries.add(ModItems.PIETERSITE_AXE);
+entries.add(ModItems.PIETERSITE_HOE);
+entries.add(ModItems.PIETERSITE_SHOVEL);
+entries.add(ModItems.PIETERSITE_PICKAXE);
+
 
 entries.add(ModItems.HELIOTROPE);
 entries.add(ModItems.RAW_HELIOTRPE);
 entries.add(ModBlocks.HELIOTROPE_BLOCK);
 entries.add(ModBlocks.HELIOTROPE_ORE);
+entries.add(ModItems.BLOODSTONE_CLAYMORE);
+entries.add(ModItems.HELIOTROPE_AXE);
+entries.add(ModItems.HELIOTROPE_HOE);
+entries.add(ModItems.HELIOTROPE_SHOVEL);
+entries.add(ModItems.HELIOTROPE_PICKAXE);
 
 entries.add(ModItems.PUMPKIN_GEM);
 entries.add(ModItems.PUMPKIN_BERRIES);

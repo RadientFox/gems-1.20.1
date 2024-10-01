@@ -6,19 +6,14 @@ import net.minecraft.data.server.recipe.RecipeJsonProvider;
 import net.minecraft.data.server.recipe.ShapedRecipeJsonBuilder;
 import net.minecraft.data.server.recipe.ShapelessRecipeJsonBuilder;
 import net.minecraft.data.server.recipe.SmithingTransformRecipeJsonBuilder;
-import net.minecraft.item.Item;
 import net.minecraft.item.ItemConvertible;
 import net.minecraft.item.Items;
-import net.minecraft.item.MinecartItem;
 import net.minecraft.recipe.Ingredient;
 import net.minecraft.recipe.book.RecipeCategory;
-import net.minecraft.registry.tag.TagKey;
 import net.minecraft.util.Identifier;
 import net.radient.gems.block.ModBlocks;
 import net.radient.gems.item.ModItems;
-import net.radient.gems.util.ModTags;
 
-import javax.swing.text.html.HTML;
 import java.util.List;
 import java.util.function.Consumer;
 
@@ -204,6 +199,38 @@ public class ModRecipieProvider extends FabricRecipeProvider {
         offerReversibleCompactingRecipes(exporter,RecipeCategory.BUILDING_BLOCKS, ModItems.GALAXIUM, RecipeCategory.MISC, ModBlocks.GALAXIUM_BLOCK);
 
 
+        SmithingTransformRecipeJsonBuilder.create(Ingredient.ofItems(ModItems.END_GEM_UPGRADE),Ingredient.ofItems(Items.NETHERITE_PICKAXE),
+                        Ingredient.ofItems(ModItems.GALAXIUM),
+                        RecipeCategory.TOOLS,ModItems.GALAXIUM_PICKAXE)
+                .criterion("has_upgrade_template",conditionsFromItem(ModItems.END_GEM_UPGRADE))
+                .offerTo(exporter,new Identifier(getRecipeName((ModItems.GALAXIUM_PICKAXE))));
+
+        SmithingTransformRecipeJsonBuilder.create(Ingredient.ofItems(ModItems.END_GEM_UPGRADE),Ingredient.ofItems(Items.NETHERITE_SWORD),
+                        Ingredient.ofItems(ModItems.GALAXIUM),
+                        RecipeCategory.TOOLS,ModItems.GALAXIUM_SWORD)
+                .criterion("has_upgrade_template",conditionsFromItem(ModItems.END_GEM_UPGRADE))
+                .offerTo(exporter,new Identifier(getRecipeName((ModItems.GALAXIUM_SWORD))));
+
+        SmithingTransformRecipeJsonBuilder.create(Ingredient.ofItems(ModItems.END_GEM_UPGRADE),Ingredient.ofItems(Items.NETHERITE_AXE),
+                        Ingredient.ofItems(ModItems.GALAXIUM),
+                        RecipeCategory.TOOLS,ModItems.GALAXIUM_AXE)
+                .criterion("has_upgrade_template",conditionsFromItem(ModItems.END_GEM_UPGRADE))
+                .offerTo(exporter,new Identifier(getRecipeName((ModItems.GALAXIUM_AXE))));
+
+        SmithingTransformRecipeJsonBuilder.create(Ingredient.ofItems(ModItems.END_GEM_UPGRADE),Ingredient.ofItems(Items.NETHERITE_SHOVEL),
+                        Ingredient.ofItems(ModItems.GALAXIUM),
+                        RecipeCategory.TOOLS,ModItems.GALAXIUM_SHOVEL)
+                .criterion("has_upgrade_template",conditionsFromItem(ModItems.END_GEM_UPGRADE))
+                .offerTo(exporter,new Identifier(getRecipeName((ModItems.GALAXIUM_SHOVEL))));
+
+        SmithingTransformRecipeJsonBuilder.create(Ingredient.ofItems(ModItems.END_GEM_UPGRADE),Ingredient.ofItems(Items.NETHERITE_HOE),
+                        Ingredient.ofItems(ModItems.GALAXIUM),
+                        RecipeCategory.TOOLS,ModItems.GALAXIUM_HOE)
+                .criterion("has_upgrade_template",conditionsFromItem(ModItems.END_GEM_UPGRADE))
+                .offerTo(exporter,new Identifier(getRecipeName((ModItems.GALAXIUM_HOE))));
+
+
+
         //pietersite
 
         offerBlasting(exporter, PIETERSITE_SMELTABLES, RecipeCategory.COMBAT, ModItems.RAW_PIETERSITE, 1f, 300, "pietersite");
@@ -223,6 +250,38 @@ public class ModRecipieProvider extends FabricRecipeProvider {
                 .criterion(hasItem(Items.GOLD_BLOCK),conditionsFromItem(Items.GOLD_BLOCK))
                 .criterion(hasItem(ModItems.RAW_PIETERSITE),conditionsFromItem(ModItems.RAW_PIETERSITE))
                 .offerTo(exporter,new Identifier(getRecipeName(ModItems.RAW_PIETERSITE)));
+
+        SmithingTransformRecipeJsonBuilder.create(Ingredient.ofItems(ModItems.OVERWORLD_GEM_UPGRADE),Ingredient.ofItems(Items.NETHERITE_PICKAXE),
+                        Ingredient.ofItems(ModItems.PIETERSITE),
+                        RecipeCategory.TOOLS,ModItems.PIETERSITE_PICKAXE)
+                .criterion("has_upgrade_template",conditionsFromItem(ModItems.OVERWORLD_GEM_UPGRADE))
+                .offerTo(exporter,new Identifier(getRecipeName((ModItems.PIETERSITE_PICKAXE))));
+
+        SmithingTransformRecipeJsonBuilder.create(Ingredient.ofItems(ModItems.OVERWORLD_GEM_UPGRADE),Ingredient.ofItems(Items.NETHERITE_SWORD),
+                        Ingredient.ofItems(ModItems.PIETERSITE),
+                        RecipeCategory.TOOLS,ModItems.PIETERSITE_SWORD)
+                .criterion("has_upgrade_template",conditionsFromItem(ModItems.OVERWORLD_GEM_UPGRADE))
+                .offerTo(exporter,new Identifier(getRecipeName((ModItems.PIETERSITE_SWORD))));
+
+        SmithingTransformRecipeJsonBuilder.create(Ingredient.ofItems(ModItems.OVERWORLD_GEM_UPGRADE),Ingredient.ofItems(Items.NETHERITE_AXE),
+                        Ingredient.ofItems(ModItems.PIETERSITE),
+                        RecipeCategory.TOOLS,ModItems.PIETERSITE_AXE)
+                .criterion("has_upgrade_template",conditionsFromItem(ModItems.OVERWORLD_GEM_UPGRADE))
+                .offerTo(exporter,new Identifier(getRecipeName((ModItems.PIETERSITE_AXE))));
+
+        SmithingTransformRecipeJsonBuilder.create(Ingredient.ofItems(ModItems.OVERWORLD_GEM_UPGRADE),Ingredient.ofItems(Items.NETHERITE_SHOVEL),
+                        Ingredient.ofItems(ModItems.PIETERSITE),
+                        RecipeCategory.TOOLS,ModItems.PIETERSITE_SHOVEL)
+                .criterion("has_upgrade_template",conditionsFromItem(ModItems.OVERWORLD_GEM_UPGRADE))
+                .offerTo(exporter,new Identifier(getRecipeName((ModItems.PIETERSITE_SHOVEL))));
+
+        SmithingTransformRecipeJsonBuilder.create(Ingredient.ofItems(ModItems.OVERWORLD_GEM_UPGRADE),Ingredient.ofItems(Items.NETHERITE_HOE),
+                        Ingredient.ofItems(ModItems.PIETERSITE),
+                        RecipeCategory.TOOLS,ModItems.PIETERSITE_HOE)
+                .criterion("has_upgrade_template",conditionsFromItem(ModItems.OVERWORLD_GEM_UPGRADE))
+                .offerTo(exporter,new Identifier(getRecipeName((ModItems.PIETERSITE_HOE))));
+
+
 
 
         //heliotrope
@@ -245,6 +304,36 @@ public class ModRecipieProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.RAW_HELIOTRPE),conditionsFromItem(ModItems.RAW_HELIOTRPE))
                 .offerTo(exporter,new Identifier(getRecipeName(ModItems.RAW_HELIOTRPE)));
 
+
+        SmithingTransformRecipeJsonBuilder.create(Ingredient.ofItems(ModItems.OVERWORLD_GEM_UPGRADE),Ingredient.ofItems(Items.NETHERITE_PICKAXE),
+                        Ingredient.ofItems(ModItems.HELIOTROPE),
+                        RecipeCategory.TOOLS,ModItems.HELIOTROPE_PICKAXE)
+                .criterion("has_upgrade_template",conditionsFromItem(ModItems.OVERWORLD_GEM_UPGRADE))
+                .offerTo(exporter,new Identifier(getRecipeName((ModItems.HELIOTROPE_PICKAXE))));
+
+        SmithingTransformRecipeJsonBuilder.create(Ingredient.ofItems(ModItems.OVERWORLD_GEM_UPGRADE),Ingredient.ofItems(Items.NETHERITE_SWORD),
+                        Ingredient.ofItems(ModItems.HELIOTROPE),
+                        RecipeCategory.TOOLS,ModItems.BLOODSTONE_CLAYMORE)
+                .criterion("has_upgrade_template",conditionsFromItem(ModItems.OVERWORLD_GEM_UPGRADE))
+                .offerTo(exporter,new Identifier(getRecipeName((ModItems.BLOODSTONE_CLAYMORE))));
+
+        SmithingTransformRecipeJsonBuilder.create(Ingredient.ofItems(ModItems.OVERWORLD_GEM_UPGRADE),Ingredient.ofItems(Items.NETHERITE_AXE),
+                        Ingredient.ofItems(ModItems.HELIOTROPE),
+                        RecipeCategory.TOOLS,ModItems.HELIOTROPE_AXE)
+                .criterion("has_upgrade_template",conditionsFromItem(ModItems.OVERWORLD_GEM_UPGRADE))
+                .offerTo(exporter,new Identifier(getRecipeName((ModItems.HELIOTROPE_AXE))));
+
+        SmithingTransformRecipeJsonBuilder.create(Ingredient.ofItems(ModItems.OVERWORLD_GEM_UPGRADE),Ingredient.ofItems(Items.NETHERITE_SHOVEL),
+                        Ingredient.ofItems(ModItems.HELIOTROPE),
+                        RecipeCategory.TOOLS,ModItems.HELIOTROPE_SHOVEL)
+                .criterion("has_upgrade_template",conditionsFromItem(ModItems.OVERWORLD_GEM_UPGRADE))
+                .offerTo(exporter,new Identifier(getRecipeName((ModItems.HELIOTROPE_SHOVEL))));
+
+        SmithingTransformRecipeJsonBuilder.create(Ingredient.ofItems(ModItems.OVERWORLD_GEM_UPGRADE),Ingredient.ofItems(Items.NETHERITE_HOE),
+                        Ingredient.ofItems(ModItems.HELIOTROPE),
+                        RecipeCategory.TOOLS,ModItems.HELIOTROPE_HOE)
+                .criterion("has_upgrade_template",conditionsFromItem(ModItems.OVERWORLD_GEM_UPGRADE))
+                .offerTo(exporter,new Identifier(getRecipeName((ModItems.HELIOTROPE_HOE))));
 
 
         //pumpkin

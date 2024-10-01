@@ -3,6 +3,24 @@
   "values": [
     "gems:ruby_ore",
     "gems:ruby_block",
-    "gems:blue_obsidian"
+    "gems:blue_obsidian",
+    "gems:sapphire_block",
+    "gems:sapphire_ore",
+    "gems:galaxium_block",
+    "gems:galaxium_ore",
+    "gems:pietersite_block",
+    "gems:pietersite_ore",
+    "gems:heliotrope_block",
+    "gems:heliotrope_ore",
+    "gems:pumpkin_block",
+    "gems:pumpkin_debris",
+    "gems:spinel_block",
+    "gems:spinel_ore",
+    "gems:mushroom_gem_block",
+    "gems:mushroom_ore",
+    "gems:green_painite_block",
+    "gems:green_painite_ore",
+    "gems:asterism_block",
+    "gems:asterism_ore"
   ]
 }
