@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "gems:heliotrope"
+  },
+  "base": {
+    "item": "minecraft:netherite_shovel"
+  },
+  "result": {
+    "item": "gems:heliotrope_shovel"
+  },
+  "template": {
+    "item": "gems:overworld_gem_upgrade"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "gems:pumpkin_gem"
+  },
+  "base": {
+    "item": "minecraft:netherite_pickaxe"
+  },
+  "result": {
+    "item": "gems:pumpkin_pickaxe"
+  },
+  "template": {
+    "item": "gems:overworld_gem_upgrade"
+  }
+}

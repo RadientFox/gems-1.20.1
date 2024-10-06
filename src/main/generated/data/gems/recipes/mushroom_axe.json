@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "gems:mushroom_gem"
+  },
+  "base": {
+    "item": "minecraft:netherite_axe"
+  },
+  "result": {
+    "item": "gems:mushroom_axe"
+  },
+  "template": {
+    "item": "gems:overworld_gem_upgrade"
+  }
+}

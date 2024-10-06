@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "gems:spinel"
+  },
+  "base": {
+    "item": "minecraft:netherite_sword"
+  },
+  "result": {
+    "item": "gems:spinel_scythe"
+  },
+  "template": {
+    "item": "gems:overworld_gem_upgrade"
+  }
+}

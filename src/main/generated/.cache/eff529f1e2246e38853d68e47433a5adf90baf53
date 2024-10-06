@@ -1,14 +1,17 @@
-// 1.20.1	2024-10-01T05:09:50.0838138	Gems/Model Definitions
+// 1.20.1	2024-10-06T13:37:40.6675962	Gems/Model Definitions
 2ef1380496cf8ec8adf7495dbb346ddd2ae58e3e assets\gems\models\item\green_painite_block.json
 8f6e29a152aa3a9cbaa6b4fe5261b7fbe92d3dd2 assets\gems\models\item\ruby_leggings_quartz_trim.json
+865ffb03ada77099b89c7dc552ae3dff181240dd assets\gems\models\item\mushroom_hoe.json
 013cc7512b21295fe30d6250823e89911c925d2a assets\gems\models\item\mushroom_ore.json
 9fb95af508440b92a1536d33c4fab337d9afaf40 assets\gems\models\item\ruby_boots_diamond_trim.json
 59593a65569820686a959010c2694b92608ca05f assets\gems\models\item\ruby_leggings_redstone_trim.json
 5f204b66f9aa04a5cc0b5ec43d985aefc0111897 assets\gems\models\item\heliotrope.json
+c9ae761c9cc85c80b9bfbca9fde109a7f4252b83 assets\gems\models\item\pumpkin_pickaxe.json
 d676bc12ecd9ca524301d4b3ea9a329e3065ef16 assets\gems\models\item\mushroom_gem_block.json
 2ca62a43f4718d793a3724983f182fd01b3cb187 assets\gems\blockstates\mushroom_ore.json
 eff7ffbe16358208793ce23e79f12c19a1f98f8f assets\gems\models\item\spinel_block.json
 2123d969f63d5d3a2a163c41daa150d642a94dd6 assets\gems\models\item\ruby_helmet_iron_trim.json
+49777e8da8bf99b954b73a4d15a2814c84dd47c9 assets\gems\models\item\spinel_hoe.json
 d015559287d246199985dfc36db5a37ad2c69da1 assets\gems\models\item\pietersite_pickaxe.json
 442c74869712428e5304ca9f467b11c95c1c1ff9 assets\gems\models\item\raw_green_painite.json
 c8c50d8ea02d048139b9eaf35a2f05b32a64f9cc assets\gems\models\item\ruby_chestplate_quartz_trim.json
@@ -23,11 +26,12 @@ b0ed0d4a8aee968b75adc8d5d35c25c13e55b281 assets\gems\models\block\asterism_block
 f112ee232964e705326cc270897672c52ebf5ae5 assets\gems\models\item\ruby_helmet_amethyst_trim.json
 9e63c1206c137635ca834e99b568e3ec67436064 assets\gems\models\block\mushroom_ore.json
 1b8d81c10937450035a4237a3aed8ecd7ff67d26 assets\gems\models\item\asterism.json
-cc2170995b8141cae4909535ce3d6b588ac0d7e1 assets\gems\blockstates\green_painite_ore.json
 8d61885927eaec9cfb33bd1004893b76f82ce1de assets\gems\blockstates\heliotrope_block.json
+cc2170995b8141cae4909535ce3d6b588ac0d7e1 assets\gems\blockstates\green_painite_ore.json
 4c43904549603eadadf10d278bda2332f6758f82 assets\gems\models\item\ruby_hoe.json
 42aa548a1f09aa88e8ee454cbf61188ceaad7593 assets\gems\models\item\ruby_block.json
 ed54f8eed91ed3bc853df9163094d17172c3d6b0 assets\gems\models\item\green_painite_ore.json
+65068a92beffa1574ee58c33d075c56fc53b10fd assets\gems\models\item\mushroom_pickaxe.json
 99b7fd4f083d29162b79ea96e6c7d6b9e3fc5f7b assets\gems\models\item\ruby_helmet_gold_trim.json
 10814dc5665bf51cb86e1fd7a196867a7e072e15 assets\gems\models\item\sapphire_hoe.json
 11aeb5b92773283b736cd9c04cca53370472a55d assets\gems\models\item\sapphire_pickaxe.json
@@ -38,13 +42,14 @@ e346724961e06145e58d2a9491d35ea2cf69d34c assets\gems\models\item\pietersite_shov
 88248aee02777dd523643e4dbbf76171aea6f480 assets\gems\models\item\ruby_leggings_lapis_trim.json
 bf0fbb918a49146d722823c0f7b8800ea4605870 assets\gems\models\item\sapphire.json
 90634fd5595f0c28cdb9deac07f8aa637d1713c0 assets\gems\models\block\spinel_ore.json
-59d7d55b05aca4f7ffdaacfb643563306ae07a33 assets\gems\models\block\ruby_ore.json
 007d4145e39bacd9b3d6f7acbee34f79d863893d assets\gems\models\item\sapphire_shovel.json
+59d7d55b05aca4f7ffdaacfb643563306ae07a33 assets\gems\models\block\ruby_ore.json
 4ff53c356774dd0f8baa58905bba86e0d09e2170 assets\gems\blockstates\asterism_ore.json
-84747c907079707047a940852ced389973965475 assets\gems\models\item\pietersite_hoe.json
 15800d2967e8d4ee3c4fdf20b38eff77f797712b assets\gems\models\block\pietersite_block.json
-6c39ff335455cf7c7ea3eb9b4a01668db42d8f3c assets\gems\models\item\ruby_leggings_amethyst_trim.json
+84747c907079707047a940852ced389973965475 assets\gems\models\item\pietersite_hoe.json
 41eeac807479acc77b0aef5b951786b8ea820217 assets\gems\models\item\ruby_chestplate_iron_trim.json
+6c39ff335455cf7c7ea3eb9b4a01668db42d8f3c assets\gems\models\item\ruby_leggings_amethyst_trim.json
+f6510c22abc0f487ae3b2bd38b9b51d2829e0c0b assets\gems\models\item\spinel_shovel.json
 e13642d5f18ba2af661a826d9420d692eef4234e assets\gems\models\item\gay_leggings.json
 1ab3908962564e84d7da5849f603076fc50ed7f9 assets\gems\models\block\green_painite_block.json
 d7590e0c65b7b347337180fcd09cf27451b8af65 assets\gems\models\item\ruby_leggings_diamond_trim.json
@@ -70,14 +75,17 @@ d037a4fac3a2fbb66ed0d623395ba058e593736e assets\gems\models\item\pietersite_bloc
 4b977c643fbb07222f0e87115ec2d818033db4cf assets\gems\models\item\ruby_pickaxe.json
 a659dc4034416f8ab125e03d4e377bbb3e5eafb8 assets\gems\models\block\pietersite_ore.json
 45fb16b23dada1707ce073a88b893485045091e9 assets\gems\models\item\spinel.json
+b288a17364339d2874119d055198307db2b65028 assets\gems\models\item\pumpkin_hoe.json
+ab8f1b62632b868645c56540698f1a5d4177edcb assets\gems\models\item\pumpkin_axe.json
 79a20b0e28ac6ddd0b7a1d980dc83fa8b02305e5 assets\gems\models\item\galaxium_shovel.json
 dab04183a33e8aa772d3626ba00d50d9d832bffe assets\gems\blockstates\ruby_ore.json
+382dd8e590cea9d1a2ff09519a97a53994ac5c08 assets\gems\models\item\mushroom_shovel.json
 35c3adda9d1a89d83c42e00c11ef54249942aea4 assets\gems\models\item\heliotrope_block.json
 3b39f49c557549b262b7be0c0657e77b53eafdce assets\gems\models\item\ruby_boots_emerald_trim.json
 141c247fd1b2397a74a456137bfb9e6e46fa1540 assets\gems\models\block\blue_obsidian.json
 6d2df55284ce962f8d70dbefeb658d70e1b73866 assets\gems\models\item\ruby_boots_gold_trim.json
-206a3a60ddbc1f750f5e72939740f9d8906f78d5 assets\gems\models\item\ruby_chestplate.json
 4edab0f93c7d8c0db1e6b426626aff3156244dc9 assets\gems\models\item\raw_galaxium.json
+206a3a60ddbc1f750f5e72939740f9d8906f78d5 assets\gems\models\item\ruby_chestplate.json
 6197ad67e0c40cc55ff75414656cba4ea8ff7857 assets\gems\models\item\unbonded_asterism.json
 8727ce65ee9dd26f5ab728bd69f4ba11c28e9204 assets\gems\models\item\galaxium_axe.json
 611bc405915d14999caba938e2b5572ab654c63b assets\gems\blockstates\sapphire_block.json
@@ -87,6 +95,7 @@ c5039c311bd3557ae1f277cd6cf16b2f74a97119 assets\gems\blockstates\spinel_ore.json
 fda4fffccae3d58367c65be973ac5d74b367be45 assets\gems\models\item\galaxium_sword.json
 0e5863f6ab2587ac6441fb1cd7e3990439577b45 assets\gems\blockstates\heliotrope_ore.json
 4fa2f60669550ab230acfb881bb98fb55f5cbc47 assets\gems\models\item\pietersite_axe.json
+3f0a84df2a49e306a0fca0156260157a2e484d3c assets\gems\models\item\pumpkin_shovel.json
 e9c1c680fd6cb69484a557439511617856c6f6b3 assets\gems\models\item\heliotrope_ore.json
 5f5dff0b954a73d74370c344bfa84388afc0a227 assets\gems\models\item\ruby_boots_iron_trim.json
 0b3b479a0c5cbea67ecd73e7d937cff4e10fc535 assets\gems\models\item\ruby_chestplate_lapis_trim.json
@@ -100,7 +109,6 @@ de356fe52fa55a1d71ad529283c4e777ea509023 assets\gems\models\item\raw_pietersite.
 51286cb03b3591fe426c0eec448ce8ff74d0a833 assets\gems\models\item\green_painite.json
 824141c8d828ac9d28cdda6d321129ec1175ff4c assets\gems\models\item\ruby_chestplate_redstone_trim.json
 c42e9b856b3591fff2a007534064a984bb90e18a assets\gems\models\item\gay_boots.json
-6c6315e2c011da4568aa6f6130ff8cc035e50866 assets\gems\models\item\bloodstone_blade.json
 f78608d07b9e31bdd9689c750e98fdaef5a26377 assets\gems\models\item\pietersite.json
 83548b6a39dd303583d1f5d8a91d5ffff9db505a assets\gems\models\item\ruby_boots_quartz_trim.json
 89168ed4f67263dd21aa96efd1d2f40b0a9ef1a4 assets\gems\models\block\sapphire_ore.json
@@ -118,6 +126,7 @@ b6f511758e29663c1663e145b01b404c7ee3ab3a assets\gems\models\item\blue_obsidian.j
 96da08a1486774358b6502d15cdd04d67e269806 assets\gems\models\block\mushroom_gem_block.json
 523bd825a18513756726552bdb27e6a9b6a4c9f4 assets\gems\models\item\heliotrope_pickaxe.json
 562ed7e1f3db347cf55df25af05638b77073560d assets\gems\models\item\ruby.json
+0c62820d7dcf1d0a68e0b229ee238dedfa88dc5e assets\gems\models\item\mushroom_axe.json
 4373a5e18319901306587d157f72451fae87189e assets\gems\models\block\heliotrope_block.json
 a06359d0219d521ddb97dc54b8e4b1b279fb588a assets\gems\models\item\ruby_leggings.json
 ed65d150557aa4971ae9733bcaa126c5a6da5301 assets\gems\models\item\raw_spinel.json
@@ -128,8 +137,8 @@ fbb1129f3eda4355afd7c990a0de6dd9d9a213d0 assets\gems\blockstates\asterism_block.
 07b01068aae924df7ff3b716fb9ca6e18564c398 assets\gems\models\item\ruby_helmet_redstone_trim.json
 c9f6971819a5d82268a66a70f21e4e711779a2c6 assets\gems\models\item\ruby_leggings_iron_trim.json
 e2c2b169cc95d814b1ce8aa041811c5ae85575bb assets\gems\blockstates\pietersite_ore.json
-76a3b59be825ac52098d90ecda37eacef95c21fa assets\gems\models\item\ruby_ore.json
 40738cca3e5748136bed406e69535dc85f2a8ab7 assets\gems\models\item\pumpkin_berries.json
+76a3b59be825ac52098d90ecda37eacef95c21fa assets\gems\models\item\ruby_ore.json
 96088525631f9b0261d8fc0530b7d4c8c49c91cf assets\gems\models\item\heliotrope_shovel.json
 71ab74e3844de7b6a8d610da3fdab6182cdd09e2 assets\gems\models\block\green_painite_ore.json
 a5b823e19eed2dfa8e07f19739ff495d92ab2cde assets\gems\models\item\ruby_chestplate_amethyst_trim.json
@@ -146,6 +155,7 @@ debe7b3bbf604f1484a452d8a80f550a19fa6ca8 assets\gems\models\block\galaxium_block
 ea1f112018cf75ad8c1cca057612443ffa90edcd assets\gems\models\item\ruby_chestplate_copper_trim.json
 0c6449b5f676f5173a25cc41c376d6e9a9c2b33f assets\gems\models\item\ruby_paw.json
 b86c43b77c4a849c785a1bf80f141e1eac030d0e assets\gems\models\item\ruby_boots_lapis_trim.json
+2326a5fdf7c4a362c7e70f12b48b843862940e30 assets\gems\models\item\pumpkin_sword.json
 b5fea7e9b9ee1f71096a038544ff4ed90da1b29f assets\gems\models\item\ruby_boots_netherite_trim.json
 8d61597ed452034f43548e3bff42f29624ec5a06 assets\gems\models\item\ruby_chestplate_gold_trim.json
 8a083571f7621c693440d79c9b5d415dbfafbcc3 assets\gems\models\item\asterism_block.json

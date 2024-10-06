@@ -18,5 +18,6 @@ public class ExplosionItem extends SwordItem {
     public boolean postHit(ItemStack stack, LivingEntity target, LivingEntity attacker) {
         target.clearActiveItem();
         return super.postHit(stack, target, attacker);
+
     }
 }

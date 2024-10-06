@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "gems:pumpkin_gem"
+  },
+  "base": {
+    "item": "minecraft:netherite_sword"
+  },
+  "result": {
+    "item": "gems:pumpkin_sword"
+  },
+  "template": {
+    "item": "gems:overworld_gem_upgrade"
+  }
+}

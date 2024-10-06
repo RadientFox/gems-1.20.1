@@ -75,16 +75,31 @@ entries.add(ModItems.PUMPKIN_GEM);
 entries.add(ModItems.PUMPKIN_BERRIES);
 entries.add(ModBlocks.PUMPKIN_BLOCK);
 entries.add(ModBlocks.PUMPKIN_DEBRIS);
+entries.add(ModItems.PUMPKIN_SWORD);
+entries.add(ModItems.PUMPKIN_AXE);
+entries.add(ModItems.PUMPKIN_HOE);
+entries.add(ModItems.PUMPKIN_SHOVEL);
+entries.add(ModItems.PUMPKIN_PICKAXE);
 
 entries.add(ModItems.SPINEL);
 entries.add(ModItems.RAW_SPINEL);
 entries.add(ModBlocks.SPINEL_BLOCK);
 entries.add(ModBlocks.SPINEL_ORE);
+entries.add(ModItems.SPINEL_SCYTHE);
+entries.add(ModItems.SPINEL_AXE);
+entries.add(ModItems.SPINEL_HOE);
+entries.add(ModItems.SPINEL_SHOVEL);
+entries.add(ModItems.SPINEL_DRILL);
 
 entries.add(ModItems.MUSHROOM_GEM);
 entries.add(ModItems.RAW_MUSHROOM);
 entries.add(ModBlocks.MUSHROOM_GEM_BLOCK);
 entries.add(ModBlocks.MUSHROOM_ORE);
+entries.add(ModItems.MUSHROOM_SWORD);
+entries.add(ModItems.MUSHROOM_AXE);
+entries.add(ModItems.MUSHROOM_HOE);
+entries.add(ModItems.MUSHROOM_SHOVEL);
+entries.add(ModItems.MUSHROOM_PICKAXE);
 
 entries.add(ModItems.GREEN_PAINITE);
 entries.add(ModItems.RAW_GREEN_PAINITE);

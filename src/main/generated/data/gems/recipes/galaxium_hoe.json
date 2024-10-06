@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "gems:galaxium"
+  },
+  "base": {
+    "item": "minecraft:netherite_hoe"
+  },
+  "result": {
+    "item": "gems:galaxium_hoe"
+  },
+  "template": {
+    "item": "gems:end_gem_upgrade"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "gems:galaxium"
+  },
+  "base": {
+    "item": "minecraft:netherite_pickaxe"
+  },
+  "result": {
+    "item": "gems:galaxium_pickaxe"
+  },
+  "template": {
+    "item": "gems:end_gem_upgrade"
+  }
+}

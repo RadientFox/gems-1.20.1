@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "gems:pietersite"
+  },
+  "base": {
+    "item": "minecraft:netherite_sword"
+  },
+  "result": {
+    "item": "gems:pietersite_coral_blade"
+  },
+  "template": {
+    "item": "gems:overworld_gem_upgrade"
+  }
+}

@@ -10,7 +10,7 @@ public enum ModToolMaterial implements ToolMaterial {
     RUBY(5,2500,9f,1f,16, ()->Ingredient.ofItems(ModItems.RUBY)),
     SAPPHIRE(5,2500,9f,1f,16, ()->Ingredient.ofItems(ModItems.SAPPHIRE)),
     GALAXIUM(5,2500,9f,1f,16, ()->Ingredient.ofItems(ModItems.GALAXIUM)),
-    PEITERSITE(5,2500,9f,1f,16, ()->Ingredient.ofItems(ModItems.PIETERSITE)),
+    PIETERSITE(5,2500,9f,1f,16, ()->Ingredient.ofItems(ModItems.PIETERSITE)),
     HELIOTROPE(5,2500,9f,1f,16, ()->Ingredient.ofItems(ModItems.HELIOTROPE)),
     PUMPKIN(5,2500,9f,1f,16, ()->Ingredient.ofItems(ModItems.PUMPKIN_GEM)),
     SPINEL(5,2500,9f,1f,16, ()->Ingredient.ofItems(ModItems.SPINEL)),

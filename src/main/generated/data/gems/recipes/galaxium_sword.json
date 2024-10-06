@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "gems:galaxium"
+  },
+  "base": {
+    "item": "minecraft:netherite_sword"
+  },
+  "result": {
+    "item": "gems:galaxium_sword"
+  },
+  "template": {
+    "item": "gems:end_gem_upgrade"
+  }
+}

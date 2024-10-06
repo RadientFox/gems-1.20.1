@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "gems:heliotrope"
+  },
+  "base": {
+    "item": "minecraft:netherite_sword"
+  },
+  "result": {
+    "item": "gems:bloodstone_claymore"
+  },
+  "template": {
+    "item": "gems:overworld_gem_upgrade"
+  }
+}

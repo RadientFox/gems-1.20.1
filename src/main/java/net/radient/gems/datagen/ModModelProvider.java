@@ -120,13 +120,26 @@ public class ModModelProvider extends FabricModelProvider {
         //pumpkin
         itemModelGenerator.register(ModItems.PUMPKIN_BERRIES, Models.GENERATED);
         itemModelGenerator.register(ModItems.PUMPKIN_GEM, Models.GENERATED);
+
+        itemModelGenerator.register(ModItems.PUMPKIN_PICKAXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.PUMPKIN_SHOVEL, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.PUMPKIN_HOE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.PUMPKIN_SWORD, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.PUMPKIN_AXE, Models.HANDHELD);
+
         //spinel
         itemModelGenerator.register(ModItems.RAW_SPINEL, Models.GENERATED);
         itemModelGenerator.register(ModItems.SPINEL, Models.GENERATED);
+        itemModelGenerator.register(ModItems.SPINEL_SHOVEL, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.SPINEL_HOE, Models.HANDHELD);
 
         //mushroom gem
         itemModelGenerator.register(ModItems.RAW_MUSHROOM, Models.GENERATED);
         itemModelGenerator.register(ModItems.MUSHROOM_GEM, Models.GENERATED);
+        itemModelGenerator.register(ModItems.MUSHROOM_PICKAXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.MUSHROOM_SHOVEL, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.MUSHROOM_HOE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.MUSHROOM_AXE, Models.HANDHELD);
 
       //green painite
         itemModelGenerator.register(ModItems.RAW_GREEN_PAINITE, Models.GENERATED);

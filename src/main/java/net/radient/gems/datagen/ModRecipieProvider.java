@@ -358,6 +358,40 @@ public class ModRecipieProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.PUMPKIN_BERRIES),conditionsFromItem(ModItems.PUMPKIN_BERRIES))
                 .offerTo(exporter,new Identifier(getRecipeName(ModItems.PUMPKIN_BERRIES)));
 
+
+
+        SmithingTransformRecipeJsonBuilder.create(Ingredient.ofItems(ModItems.OVERWORLD_GEM_UPGRADE),Ingredient.ofItems(Items.NETHERITE_PICKAXE),
+                        Ingredient.ofItems(ModItems.PUMPKIN_GEM),
+                        RecipeCategory.TOOLS,ModItems.PUMPKIN_PICKAXE)
+                .criterion("has_upgrade_template",conditionsFromItem(ModItems.OVERWORLD_GEM_UPGRADE))
+                .offerTo(exporter,new Identifier(getRecipeName((ModItems.PUMPKIN_PICKAXE))));
+
+        SmithingTransformRecipeJsonBuilder.create(Ingredient.ofItems(ModItems.OVERWORLD_GEM_UPGRADE),Ingredient.ofItems(Items.NETHERITE_SWORD),
+                        Ingredient.ofItems(ModItems.PUMPKIN_GEM),
+                        RecipeCategory.TOOLS,ModItems.PUMPKIN_SWORD)
+                .criterion("has_upgrade_template",conditionsFromItem(ModItems.OVERWORLD_GEM_UPGRADE))
+                .offerTo(exporter,new Identifier(getRecipeName((ModItems.PUMPKIN_SWORD))));
+
+        SmithingTransformRecipeJsonBuilder.create(Ingredient.ofItems(ModItems.OVERWORLD_GEM_UPGRADE),Ingredient.ofItems(Items.NETHERITE_AXE),
+                        Ingredient.ofItems(ModItems.PUMPKIN_GEM),
+                        RecipeCategory.TOOLS,ModItems.PUMPKIN_AXE)
+                .criterion("has_upgrade_template",conditionsFromItem(ModItems.OVERWORLD_GEM_UPGRADE))
+                .offerTo(exporter,new Identifier(getRecipeName((ModItems.PUMPKIN_AXE))));
+
+        SmithingTransformRecipeJsonBuilder.create(Ingredient.ofItems(ModItems.OVERWORLD_GEM_UPGRADE),Ingredient.ofItems(Items.NETHERITE_SHOVEL),
+                        Ingredient.ofItems(ModItems.PUMPKIN_GEM),
+                        RecipeCategory.TOOLS,ModItems.PUMPKIN_SHOVEL)
+                .criterion("has_upgrade_template",conditionsFromItem(ModItems.OVERWORLD_GEM_UPGRADE))
+                .offerTo(exporter,new Identifier(getRecipeName((ModItems.PUMPKIN_SHOVEL))));
+
+        SmithingTransformRecipeJsonBuilder.create(Ingredient.ofItems(ModItems.OVERWORLD_GEM_UPGRADE),Ingredient.ofItems(Items.NETHERITE_HOE),
+                        Ingredient.ofItems(ModItems.PUMPKIN_GEM),
+                        RecipeCategory.TOOLS,ModItems.PUMPKIN_HOE)
+                .criterion("has_upgrade_template",conditionsFromItem(ModItems.OVERWORLD_GEM_UPGRADE))
+                .offerTo(exporter,new Identifier(getRecipeName((ModItems.PUMPKIN_HOE))));
+
+
+
         //spinel
 
         offerBlasting(exporter, SPINEL_SMELTABLES, RecipeCategory.COMBAT, ModItems.RAW_SPINEL, 1f, 300, "spinel");
@@ -380,7 +414,41 @@ public class ModRecipieProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.RAW_SPINEL),conditionsFromItem(ModItems.RAW_SPINEL))
                 .offerTo(exporter,new Identifier(getRecipeName(ModItems.RAW_SPINEL)));
 
-        //Mushroom
+
+
+      SmithingTransformRecipeJsonBuilder.create(Ingredient.ofItems(ModItems.OVERWORLD_GEM_UPGRADE),Ingredient.ofItems(Items.NETHERITE_PICKAXE),
+                      Ingredient.ofItems(ModItems.SPINEL),
+                      RecipeCategory.TOOLS,ModItems.SPINEL_DRILL)
+              .criterion("has_upgrade_template",conditionsFromItem(ModItems.OVERWORLD_GEM_UPGRADE))
+              .offerTo(exporter,new Identifier(getRecipeName((ModItems.SPINEL_DRILL))));
+
+      SmithingTransformRecipeJsonBuilder.create(Ingredient.ofItems(ModItems.OVERWORLD_GEM_UPGRADE),Ingredient.ofItems(Items.NETHERITE_SWORD),
+                      Ingredient.ofItems(ModItems.SPINEL),
+                      RecipeCategory.TOOLS,ModItems.SPINEL_SCYTHE)
+              .criterion("has_upgrade_template",conditionsFromItem(ModItems.OVERWORLD_GEM_UPGRADE))
+              .offerTo(exporter,new Identifier(getRecipeName((ModItems.SPINEL_SCYTHE))));
+
+      SmithingTransformRecipeJsonBuilder.create(Ingredient.ofItems(ModItems.OVERWORLD_GEM_UPGRADE),Ingredient.ofItems(Items.NETHERITE_AXE),
+                      Ingredient.ofItems(ModItems.SPINEL),
+                      RecipeCategory.TOOLS,ModItems.SPINEL_AXE)
+              .criterion("has_upgrade_template",conditionsFromItem(ModItems.OVERWORLD_GEM_UPGRADE))
+              .offerTo(exporter,new Identifier(getRecipeName((ModItems.SPINEL_AXE))));
+
+      SmithingTransformRecipeJsonBuilder.create(Ingredient.ofItems(ModItems.OVERWORLD_GEM_UPGRADE),Ingredient.ofItems(Items.NETHERITE_SHOVEL),
+                      Ingredient.ofItems(ModItems.SPINEL),
+                      RecipeCategory.TOOLS,ModItems.SPINEL_SHOVEL)
+              .criterion("has_upgrade_template",conditionsFromItem(ModItems.OVERWORLD_GEM_UPGRADE))
+              .offerTo(exporter,new Identifier(getRecipeName((ModItems.SPINEL_SHOVEL))));
+
+      SmithingTransformRecipeJsonBuilder.create(Ingredient.ofItems(ModItems.OVERWORLD_GEM_UPGRADE),Ingredient.ofItems(Items.NETHERITE_HOE),
+                      Ingredient.ofItems(ModItems.SPINEL),
+                      RecipeCategory.TOOLS,ModItems.SPINEL_HOE)
+              .criterion("has_upgrade_template",conditionsFromItem(ModItems.OVERWORLD_GEM_UPGRADE))
+              .offerTo(exporter,new Identifier(getRecipeName((ModItems.SPINEL_HOE))));
+
+
+
+      //Mushroom
 
         offerBlasting(exporter, MUSHROOM_SMELTABLES, RecipeCategory.COMBAT, ModItems.RAW_MUSHROOM, 1f, 300, "mushroom_gem");
 
@@ -400,7 +468,39 @@ public class ModRecipieProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.RAW_MUSHROOM),conditionsFromItem(ModItems.RAW_MUSHROOM))
                 .offerTo(exporter,new Identifier(getRecipeName(ModItems.RAW_MUSHROOM)));
 
-        //Green Painite
+      SmithingTransformRecipeJsonBuilder.create(Ingredient.ofItems(ModItems.OVERWORLD_GEM_UPGRADE),Ingredient.ofItems(Items.NETHERITE_PICKAXE),
+                      Ingredient.ofItems(ModItems.MUSHROOM_GEM),
+                      RecipeCategory.TOOLS,ModItems.MUSHROOM_PICKAXE)
+              .criterion("has_upgrade_template",conditionsFromItem(ModItems.OVERWORLD_GEM_UPGRADE))
+              .offerTo(exporter,new Identifier(getRecipeName((ModItems.MUSHROOM_PICKAXE))));
+
+      SmithingTransformRecipeJsonBuilder.create(Ingredient.ofItems(ModItems.OVERWORLD_GEM_UPGRADE),Ingredient.ofItems(Items.NETHERITE_SWORD),
+                      Ingredient.ofItems(ModItems.MUSHROOM_GEM),
+                      RecipeCategory.TOOLS,ModItems.MUSHROOM_SWORD)
+              .criterion("has_upgrade_template",conditionsFromItem(ModItems.OVERWORLD_GEM_UPGRADE))
+              .offerTo(exporter,new Identifier(getRecipeName((ModItems.MUSHROOM_SWORD))));
+
+      SmithingTransformRecipeJsonBuilder.create(Ingredient.ofItems(ModItems.OVERWORLD_GEM_UPGRADE),Ingredient.ofItems(Items.NETHERITE_AXE),
+                      Ingredient.ofItems(ModItems.MUSHROOM_GEM),
+                      RecipeCategory.TOOLS,ModItems.MUSHROOM_AXE)
+              .criterion("has_upgrade_template",conditionsFromItem(ModItems.OVERWORLD_GEM_UPGRADE))
+              .offerTo(exporter,new Identifier(getRecipeName((ModItems.MUSHROOM_AXE))));
+
+      SmithingTransformRecipeJsonBuilder.create(Ingredient.ofItems(ModItems.OVERWORLD_GEM_UPGRADE),Ingredient.ofItems(Items.NETHERITE_SHOVEL),
+                      Ingredient.ofItems(ModItems.MUSHROOM_GEM),
+                      RecipeCategory.TOOLS,ModItems.MUSHROOM_SHOVEL)
+              .criterion("has_upgrade_template",conditionsFromItem(ModItems.OVERWORLD_GEM_UPGRADE))
+              .offerTo(exporter,new Identifier(getRecipeName((ModItems.MUSHROOM_SHOVEL))));
+
+      SmithingTransformRecipeJsonBuilder.create(Ingredient.ofItems(ModItems.OVERWORLD_GEM_UPGRADE),Ingredient.ofItems(Items.NETHERITE_HOE),
+                      Ingredient.ofItems(ModItems.MUSHROOM_GEM),
+                      RecipeCategory.TOOLS,ModItems.MUSHROOM_HOE)
+              .criterion("has_upgrade_template",conditionsFromItem(ModItems.OVERWORLD_GEM_UPGRADE))
+              .offerTo(exporter,new Identifier(getRecipeName((ModItems.MUSHROOM_HOE))));
+
+      
+
+      //Green Painite
 
         offerBlasting(exporter, GREEN_PAINITE_SMELTABLES, RecipeCategory.COMBAT, ModItems.RAW_GREEN_PAINITE, 1f, 300, "green_painite");
 

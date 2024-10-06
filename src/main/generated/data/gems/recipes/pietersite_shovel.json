@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "gems:pietersite"
+  },
+  "base": {
+    "item": "minecraft:netherite_shovel"
+  },
+  "result": {
+    "item": "gems:pietersite_shovel"
+  },
+  "template": {
+    "item": "gems:overworld_gem_upgrade"
+  }
+}
