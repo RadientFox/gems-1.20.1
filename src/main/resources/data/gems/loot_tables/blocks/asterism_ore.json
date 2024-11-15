@@ -6,13 +6,13 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "gems:blocks/raw_gems",
+          "name": "gems:blocks/amulets",
           "weight": 5,
           "quality": 1
         },
         {
           "type": "minecraft:item",
-          "name": "gems:asterism_ore",
+          "name": "gems:divine_crystal",
           "weight": 95,
           "quality": 1
         }

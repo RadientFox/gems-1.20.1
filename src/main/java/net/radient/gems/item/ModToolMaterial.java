@@ -16,7 +16,8 @@ public enum ModToolMaterial implements ToolMaterial {
     SPINEL(5,2500,9f,1f,16, ()->Ingredient.ofItems(ModItems.SPINEL)),
     MUSHROOM(5,2500,9f,1f,16, ()->Ingredient.ofItems(ModItems.MUSHROOM_GEM)),
     GREEN_PAINITE(5,2500,9f,1f,16, ()->Ingredient.ofItems(ModItems.GREEN_PAINITE)),
-    ASTERISM(5,2500,9f,1f,16, ()->Ingredient.ofItems(ModItems.ASTERISM));
+    ASTERISM(5,2500,9f,1f,16, ()->Ingredient.ofItems(ModItems.ASTERISM)),
+    AQUAMARINE(5,2500,9f,1f,16, ()->Ingredient.ofItems(ModItems.AQUAMARINE));
 
 
 

@@ -143,15 +143,15 @@ public static final Item PUMPKIN_BERRIES = registerItem("pumpkin_berries",new It
     public static final Item MUSHROOM_GEM = registerItem("mushroom_gem",new Item(new FabricItemSettings().rarity(Rarity.EPIC).fireproof()));
     public static final Item RAW_MUSHROOM = registerItem("raw_mushroom",new Item(new FabricItemSettings().rarity(Rarity.UNCOMMON).fireproof()));
 
-    public static  final Item MUSHROOM_SWORD = registerItem("mushroom_sword", new MushroomSwordtem(ModToolMaterial.PUMPKIN, 9,-2.4F,
+    public static  final Item MUSHROOM_SWORD = registerItem("mushroom_sword", new MushroomSwordtem(ModToolMaterial.MUSHROOM, 9,-2.4F,
             new FabricItemSettings()));
-    public static  final Item MUSHROOM_PICKAXE = registerItem("mushroom_pickaxe", new PickaxeItem(ModToolMaterial.PUMPKIN, 5,-2.8F,
+    public static  final Item MUSHROOM_PICKAXE = registerItem("mushroom_pickaxe", new PickaxeItem(ModToolMaterial.MUSHROOM, 5,-2.8F,
             new FabricItemSettings()));
-    public static  final Item MUSHROOM_AXE = registerItem("mushroom_axe", new MushroomAxetem(ModToolMaterial.PUMPKIN, 11,-3.0F,
+    public static  final Item MUSHROOM_AXE = registerItem("mushroom_axe", new MushroomAxetem(ModToolMaterial.MUSHROOM, 11,-3.0F,
             new FabricItemSettings()));
-    public static  final Item MUSHROOM_HOE = registerItem("mushroom_hoe", new HoeItem(ModToolMaterial.PUMPKIN, -1,0.0f,
+    public static  final Item MUSHROOM_HOE = registerItem("mushroom_hoe", new HoeItem(ModToolMaterial.MUSHROOM, -1,0.0f,
             new FabricItemSettings()));
-    public static  final Item MUSHROOM_SHOVEL = registerItem("mushroom_shovel", new ShovelItem(ModToolMaterial.PUMPKIN, 2,-3.0F,
+    public static  final Item MUSHROOM_SHOVEL = registerItem("mushroom_shovel", new ShovelItem(ModToolMaterial.MUSHROOM, 2,-3.0F,
             new FabricItemSettings()));
 
 //Green Painite
@@ -159,11 +159,61 @@ public static final Item PUMPKIN_BERRIES = registerItem("pumpkin_berries",new It
     public static final Item GREEN_PAINITE = registerItem("green_painite",new Item(new FabricItemSettings().rarity(Rarity.EPIC).fireproof()));
     public static final Item RAW_GREEN_PAINITE = registerItem("raw_green_painite",new Item(new FabricItemSettings().rarity(Rarity.UNCOMMON).fireproof()));
 
+    public static  final Item GREEN_PAINITE_SWORD = registerItem("green_painite_sword", new MushroomSwordtem(ModToolMaterial.GREEN_PAINITE, 9,-2.4F,
+            new FabricItemSettings()));
+    public static  final Item GREEN_PAINITE_PICKAXE = registerItem("green_painite_pickaxe", new PickaxeItem(ModToolMaterial.GREEN_PAINITE, 5,-2.8F,
+            new FabricItemSettings()));
+    public static  final Item GREEN_PAINITE_AXE = registerItem("green_painite_axe", new MushroomAxetem(ModToolMaterial.GREEN_PAINITE, 11,-3.0F,
+            new FabricItemSettings()));
+    public static  final Item GREEN_PAINITE_HOE = registerItem("green_painite_hoe", new HoeItem(ModToolMaterial.GREEN_PAINITE, -1,0.0f,
+            new FabricItemSettings()));
+    public static  final Item GREEN_PAINITE_SHOVEL = registerItem("green_painite_shovel", new ShovelItem(ModToolMaterial.GREEN_PAINITE, 2,-3.0F,
+            new FabricItemSettings()));
+
+public static final Item GREEN_DISK =registerItem("green_panite_disk", new BowItem(new FabricItemSettings()));
+
 //Asterism
 
     public static final Item ASTERISM = registerItem("asterism",new Item(new FabricItemSettings().rarity(Rarity.EPIC).fireproof()));
     public static final Item UNBONDED_ASTRISM = registerItem("unbonded_asterism",new Item(new FabricItemSettings().rarity(Rarity.UNCOMMON).fireproof()));
 
+    public static  final Item ASTERISM_PICKAXE = registerItem("asterism_pickaxe", new PickaxeItem(ModToolMaterial.ASTERISM, 5,-2.8F,
+            new FabricItemSettings()));
+    public static  final Item ASTERISM_AXE = registerItem("asterism_axe", new MushroomAxetem(ModToolMaterial.ASTERISM, 11,-3.0F,
+            new FabricItemSettings()));
+    public static  final Item ASTERISM_HOE = registerItem("asterism_hoe", new HoeItem(ModToolMaterial.ASTERISM, -1,0.0f,
+            new FabricItemSettings()));
+    public static  final Item ASTERISM_SHOVEL = registerItem("asterism_shovel", new ShovelItem(ModToolMaterial.ASTERISM, 2,-3.0F,
+            new FabricItemSettings()));
+
+    public static  final Item ASTERISM_T2_SWORD = registerItem("asterism_t2_sword", new AsterismSwordT2Item(ModToolMaterial.ASTERISM, 9,-2.4F,
+            new FabricItemSettings()));
+
+    public static  final Item ASTERISM_T1_SWORD = registerItem("asterism_t1_sword", new SwordItem(ModToolMaterial.ASTERISM, 9,-2.4F,
+            new FabricItemSettings()));
+
+    public static  final Item ASTERISM_T3_SWORD = registerItem("asterism_t3_sword", new AsterismSwordT3Item(ModToolMaterial.ASTERISM, 9,-2.4F,
+            new FabricItemSettings()));
+
+    public static final Item STAR_OF_WILLPOWER = registerItem("star_of_willpower",new Item(new FabricItemSettings().rarity(Rarity.EPIC).fireproof()));
+    public static final Item STAR_OF_DARKNESS = registerItem("star_of_darkness",new Item(new FabricItemSettings().rarity(Rarity.EPIC).fireproof()));
+
+    public static final Item AMULET_OF_POWER = registerItem("amulet_of_power",new Item(new FabricItemSettings().rarity(Rarity.EPIC).fireproof()));
+    public static final Item AMULET_OF_SPACE = registerItem("amulet_of_space",new Item(new FabricItemSettings().rarity(Rarity.EPIC).fireproof()));
+    public static final Item AMULET_OF_TIME = registerItem("amulet_of_time",new Item(new FabricItemSettings().rarity(Rarity.EPIC).fireproof()));
+    public static final Item AMULET_OF_HOPE = registerItem("amulet_of_hope",new Item(new FabricItemSettings().rarity(Rarity.EPIC).fireproof()));
+    public static final Item AMULET_OF_REALITY = registerItem("amulet_of_reality",new Item(new FabricItemSettings().rarity(Rarity.EPIC).fireproof()));
+    public static final Item AMULET_OF_WORLDS = registerItem("amulet_of_worlds",new Item(new FabricItemSettings().rarity(Rarity.EPIC).fireproof()));
+
+    public static final Item DIVINE_CRYSTAL = registerItem("divine_crystal",new Item(new FabricItemSettings().rarity(Rarity.EPIC).fireproof()));
+
+    //Aquamarine
+
+    public static final Item AQUAMARINE = registerItem("aquamarine",new Item(new FabricItemSettings().rarity(Rarity.EPIC).fireproof()));
+    public static final Item RAW_AQUAMARINE = registerItem("raw_aquamarine",new Item(new FabricItemSettings().rarity(Rarity.UNCOMMON).fireproof()));
+
+
+    //
 
 
     //templates

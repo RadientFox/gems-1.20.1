@@ -62,7 +62,9 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.GREEN_PAINITE_BLOCK)
                 .add(ModBlocks.GREEN_PANITE_ORE)
                 .add(ModBlocks.ASTERISM_BLOCK)
-                .add(ModBlocks.ASTERISM_ORE);
+                .add(ModBlocks.ASTERISM_ORE)
+                .add(ModBlocks.AQUAMARINE_BLOCK)
+                .add(ModBlocks.AQUAMARINE_ORE);
 
 
     }

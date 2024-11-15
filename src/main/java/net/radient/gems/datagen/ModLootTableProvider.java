@@ -33,6 +33,8 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.GREEN_PAINITE_BLOCK);
         addDrop(ModBlocks.GREEN_PANITE_ORE);
         addDrop(ModBlocks.ASTERISM_BLOCK);
+        addDrop(ModBlocks.AQUAMARINE_BLOCK);
+        addDrop(ModBlocks.AQUAMARINE_ORE);
 
 
 

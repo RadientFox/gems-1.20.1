@@ -21,6 +21,8 @@
     "gems:green_painite_block",
     "gems:green_painite_ore",
     "gems:asterism_block",
-    "gems:asterism_ore"
+    "gems:asterism_ore",
+    "gems:aquamarine_block",
+    "gems:aquamarine_ore"
   ]
 }

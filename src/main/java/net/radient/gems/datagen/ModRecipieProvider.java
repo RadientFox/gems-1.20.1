@@ -28,7 +28,8 @@ public class ModRecipieProvider extends FabricRecipeProvider {
     private static final List<ItemConvertible> SPINEL_SMELTABLES =List.of(ModBlocks.SPINEL_ORE);
     private static final List<ItemConvertible> MUSHROOM_SMELTABLES =List.of(ModBlocks.MUSHROOM_ORE);
     private static final List<ItemConvertible> GREEN_PAINITE_SMELTABLES =List.of(ModBlocks.GREEN_PANITE_ORE);
-    private static final List<ItemConvertible> ASTERISM_SMELTABLES =List.of(ModBlocks.ASTERISM_ORE);
+    private static final List<ItemConvertible> ASTERISM_SMELTABLES =List.of(ModBlocks.ASTERISM_ORE, ModItems.DIVINE_CRYSTAL);
+    private static final List<ItemConvertible> AQUAMARINE_SMELTABLES =List.of(ModBlocks.AQUAMARINE_ORE);
     public ModRecipieProvider(FabricDataOutput output) {
         super(output);
     }
@@ -520,14 +521,136 @@ public class ModRecipieProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.RAW_GREEN_PAINITE),conditionsFromItem(ModItems.RAW_GREEN_PAINITE))
                 .offerTo(exporter,new Identifier(getRecipeName(ModItems.RAW_GREEN_PAINITE)));
 
+      SmithingTransformRecipeJsonBuilder.create(Ingredient.ofItems(ModItems.OVERWORLD_GEM_UPGRADE),Ingredient.ofItems(Items.NETHERITE_PICKAXE),
+                      Ingredient.ofItems(ModItems.GREEN_PAINITE),
+                      RecipeCategory.TOOLS,ModItems.GREEN_PAINITE_PICKAXE)
+              .criterion("has_upgrade_template",conditionsFromItem(ModItems.OVERWORLD_GEM_UPGRADE))
+              .offerTo(exporter,new Identifier(getRecipeName((ModItems.GREEN_PAINITE_PICKAXE))));
 
-        //Asterism
+      SmithingTransformRecipeJsonBuilder.create(Ingredient.ofItems(ModItems.OVERWORLD_GEM_UPGRADE),Ingredient.ofItems(Items.NETHERITE_SWORD),
+                      Ingredient.ofItems(ModItems.GREEN_PAINITE),
+                      RecipeCategory.TOOLS,ModItems.GREEN_PAINITE_SWORD)
+              .criterion("has_upgrade_template",conditionsFromItem(ModItems.OVERWORLD_GEM_UPGRADE))
+              .offerTo(exporter,new Identifier(getRecipeName((ModItems.GREEN_PAINITE_SWORD))));
+
+      SmithingTransformRecipeJsonBuilder.create(Ingredient.ofItems(ModItems.OVERWORLD_GEM_UPGRADE),Ingredient.ofItems(Items.NETHERITE_AXE),
+                      Ingredient.ofItems(ModItems.GREEN_PAINITE),
+                      RecipeCategory.TOOLS,ModItems.GREEN_PAINITE_AXE)
+              .criterion("has_upgrade_template",conditionsFromItem(ModItems.OVERWORLD_GEM_UPGRADE))
+              .offerTo(exporter,new Identifier(getRecipeName((ModItems.GREEN_PAINITE_AXE))));
+
+      SmithingTransformRecipeJsonBuilder.create(Ingredient.ofItems(ModItems.OVERWORLD_GEM_UPGRADE),Ingredient.ofItems(Items.NETHERITE_SHOVEL),
+                      Ingredient.ofItems(ModItems.GREEN_PAINITE),
+                      RecipeCategory.TOOLS,ModItems.GREEN_PAINITE_SHOVEL)
+              .criterion("has_upgrade_template",conditionsFromItem(ModItems.OVERWORLD_GEM_UPGRADE))
+              .offerTo(exporter,new Identifier(getRecipeName((ModItems.GREEN_PAINITE_SHOVEL))));
+
+      SmithingTransformRecipeJsonBuilder.create(Ingredient.ofItems(ModItems.OVERWORLD_GEM_UPGRADE),Ingredient.ofItems(Items.NETHERITE_HOE),
+                      Ingredient.ofItems(ModItems.GREEN_PAINITE),
+                      RecipeCategory.TOOLS,ModItems.GREEN_PAINITE_HOE)
+              .criterion("has_upgrade_template",conditionsFromItem(ModItems.OVERWORLD_GEM_UPGRADE))
+              .offerTo(exporter,new Identifier(getRecipeName((ModItems.GREEN_PAINITE_HOE))));
+
+
+
+      //Asterism
 
         offerBlasting(exporter, ASTERISM_SMELTABLES, RecipeCategory.COMBAT, ModItems.UNBONDED_ASTRISM, 1f, 300, "asterism");
 
         offerReversibleCompactingRecipes(exporter,RecipeCategory.BUILDING_BLOCKS, ModItems.ASTERISM, RecipeCategory.MISC, ModBlocks.ASTERISM_BLOCK);
 
+      ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.STAR_OF_WILLPOWER, 1)
+              .pattern("PUH")
+              .pattern("SMR")
+              .pattern("TNW")
+              .input('N', Items.NETHERITE_SCRAP)
+              .input('U', Items.DIAMOND_BLOCK)
+              .input('M', ModItems.ASTERISM)
+              .input('P', ModItems.AMULET_OF_POWER)
+              .input('S', ModItems.AMULET_OF_SPACE)
+              .input('T', ModItems.AMULET_OF_TIME)
+              .input('H', ModItems.AMULET_OF_HOPE)
+              .input('R', ModItems.AMULET_OF_REALITY)
+              .input('W', ModItems.AMULET_OF_WORLDS)
 
+              .criterion(hasItem(Items.NETHERITE_SCRAP), conditionsFromItem(Items.NETHERITE_SCRAP))
+              .criterion(hasItem(Items.DIAMOND_BLOCK), conditionsFromItem(Items.DIAMOND_BLOCK))
+              .criterion(hasItem(ModItems.ASTERISM), conditionsFromItem(ModItems.ASTERISM))
+
+              .criterion(hasItem(ModItems.AMULET_OF_POWER), conditionsFromItem(ModItems.AMULET_OF_POWER))
+              .criterion(hasItem(ModItems.AMULET_OF_SPACE), conditionsFromItem(ModItems.AMULET_OF_SPACE))
+              .criterion(hasItem(ModItems.AMULET_OF_TIME), conditionsFromItem(ModItems.AMULET_OF_TIME))
+              .criterion(hasItem(ModItems.AMULET_OF_HOPE), conditionsFromItem(ModItems.AMULET_OF_HOPE))
+              .criterion(hasItem(ModItems.AMULET_OF_REALITY), conditionsFromItem(ModItems.AMULET_OF_REALITY))
+              .criterion(hasItem(ModItems.AMULET_OF_WORLDS), conditionsFromItem(ModItems.AMULET_OF_WORLDS))
+              .offerTo(exporter, new Identifier(getRecipeName(ModItems.AMULET_OF_POWER)));
+
+      ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.STAR_OF_DARKNESS, 1)
+              .pattern("NUN")
+              .pattern("NMN")
+              .pattern("NNN")
+              .input('N', ModItems.ASTERISM)
+              .input('U', Items.NETHERITE_SCRAP)
+              .input('M', ModItems.STAR_OF_WILLPOWER)
+              .criterion(hasItem(Items.NETHERITE_SCRAP), conditionsFromItem(Items.NETHERITE_SCRAP))
+              .criterion(hasItem(Items.MOSSY_STONE_BRICKS), conditionsFromItem(Items.MOSSY_STONE_BRICKS))
+              .criterion(hasItem(ModItems.STAR_OF_WILLPOWER), conditionsFromItem(ModItems.STAR_OF_WILLPOWER))
+              .offerTo(exporter, new Identifier(getRecipeName(ModItems.STAR_OF_WILLPOWER)));
+
+
+      SmithingTransformRecipeJsonBuilder.create(Ingredient.ofItems(ModItems.END_GEM_UPGRADE),Ingredient.ofItems(Items.NETHERITE_SWORD),
+                      Ingredient.ofItems(ModItems.ASTERISM),
+                      RecipeCategory.TOOLS,ModItems.ASTERISM_T1_SWORD)
+              .criterion("has_upgrade_template",conditionsFromItem(ModItems.END_GEM_UPGRADE))
+              .offerTo(exporter,new Identifier(getRecipeName((ModItems.ASTERISM_T1_SWORD))));
+
+
+      ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.ASTERISM_T2_SWORD, 1)
+              .pattern("AUA")
+              .pattern("QNQ")
+              .pattern("AMA")
+              .input('N', ModItems.ASTERISM_T1_SWORD)
+              .input('U', Items.GOLD_BLOCK)
+              .input('M', ModItems.STAR_OF_WILLPOWER)
+              .input('A', ModItems.ASTERISM)
+              .input('Q', Items.QUARTZ_BLOCK)
+
+              .criterion(hasItem(ModItems.ASTERISM_T1_SWORD), conditionsFromItem(ModItems.ASTERISM_T1_SWORD))
+              .offerTo(exporter, new Identifier(getRecipeName(ModItems.ASTERISM_T2_SWORD)));
+
+      ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.ASTERISM_T3_SWORD, 1)
+              .pattern("AUA")
+              .pattern("QNQ")
+              .pattern("AMA")
+              .input('N', ModItems.ASTERISM_T1_SWORD)
+              .input('U', Items.REDSTONE_BLOCK)
+              .input('M', ModItems.STAR_OF_DARKNESS)
+              .input('A', ModItems.UNBONDED_ASTRISM)
+              .input('Q', Items.CRYING_OBSIDIAN)
+
+              .criterion(hasItem(ModItems.ASTERISM_T1_SWORD), conditionsFromItem(ModItems.ASTERISM_T1_SWORD))
+              .offerTo(exporter, new Identifier(getRecipeName(ModItems.ASTERISM_T3_SWORD)));
+
+
+
+      //Aquamarine
+      offerBlasting(exporter, AQUAMARINE_SMELTABLES, RecipeCategory.COMBAT, ModItems.RAW_AQUAMARINE, 1f, 300, "asterism");
+
+      offerReversibleCompactingRecipes(exporter,RecipeCategory.BUILDING_BLOCKS, ModItems.AQUAMARINE, RecipeCategory.MISC, ModBlocks.AQUAMARINE_BLOCK);
+
+      ShapelessRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.AQUAMARINE, 1)
+              .input(ModItems.RAW_AQUAMARINE)
+              .input(ModItems.RAW_AQUAMARINE)
+              .input(ModItems.RAW_AQUAMARINE)
+              .input(ModItems.RAW_AQUAMARINE)
+              .input(Items.FIRE_CORAL_FAN)
+              .input(Items.FIRE_CORAL_FAN)
+              .input(Items.FIRE_CORAL_BLOCK)
+              .input(Items.FIRE_CORAL_BLOCK)
+              .criterion(hasItem(Items.FIRE_CORAL_BLOCK),conditionsFromItem(Items.FIRE_CORAL_BLOCK))
+              .criterion(hasItem(Items.FIRE_CORAL_FAN),conditionsFromItem(Items.FIRE_CORAL_FAN))
+              .criterion(hasItem(ModItems.RAW_AQUAMARINE),conditionsFromItem(ModItems.RAW_AQUAMARINE))
+              .offerTo(exporter,new Identifier(getRecipeName(ModItems.RAW_AQUAMARINE)));
 
 
         //templates

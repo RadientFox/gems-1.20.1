@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "gems:amulet_of_power"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "gems:amulet_of_space"
+        },
+        {
+          "type": "minecraft:item",
+          "name":  "gems:amulet_of_time"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "gems:amulet_of_hope"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "gems:amulet_of_reality"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "gems:amulet_of_worlds"
+        }
+      ]
+    }
+  ]
+}

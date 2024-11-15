@@ -99,6 +99,14 @@ public static final Block SPINEL_BLOCK = registerBlock("spinel_block",
             new ExperienceDroppingBlock(FabricBlockSettings.copyOf(Blocks.ANCIENT_DEBRIS).sounds(BlockSoundGroup.AMETHYST_BLOCK).strength(30.0F, 1200.0F),
                     UniformIntProvider.create(1,2)));
 
+    //aquamarine
+    public static final Block AQUAMARINE_BLOCK = registerBlock("aquamarine_block",
+            new Block(FabricBlockSettings.copyOf(Blocks.NETHERITE_BLOCK).sounds(BlockSoundGroup.AMETHYST_BLOCK).strength(30.0F, 1200.0F).requiresTool()));
+    public static final Block AQUAMARINE_ORE = registerBlock("aquamarine_ore",
+            new ExperienceDroppingBlock(FabricBlockSettings.copyOf(Blocks.ANCIENT_DEBRIS).sounds(BlockSoundGroup.AMETHYST_BLOCK).strength(30.0F, 1200.0F),
+                    UniformIntProvider.create(1,2)));
+
+
     private static Block registerBlock(String name, Block block){
         registerBlockItem(name, block);
         return Registry.register(Registries.BLOCK, new Identifier(Gems.MOD_ID, name), block);

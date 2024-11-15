@@ -83,7 +83,7 @@
   "item.gems.raw_mushroom": "Raw Mushroom",
   "block.gems.mushroom_gem_block": "Block of Mushroom Gem",
   "block.gems.mushroom_ore": "Mushroom Ore",
-  "item.gems.mushroom_sword": "Mushroom Swod",
+  "item.gems.mushroom_sword": "Mushroom Sword",
   "item.gems.mushroom_axe": "Mushroom Axe",
   "item.gems.mushroom_pickaxe": "Mushroom Pickaxe",
   "item.gems.mushroom_hoe": "Mushroom Hoe",
@@ -93,11 +93,42 @@
   "item.gems.raw_green_painite": "Raw Green Painite",
   "block.gems.green_painite_block": "Block of Green Painite",
   "block.gems.green_painite_ore": "Green Painite Ore",
+  "item.gems.green_painite_sword": "Green Painite Sword",
+  "item.gems.green_painite_axe": "Green Painite Axe",
+  "item.gems.green_painite_pickaxe": "Green Painite Pickaxe",
+  "item.gems.green_painite_hoe": "Green Painite Hoe",
+  "item.gems.green_painite_shovel": "Green Painite Shovel",
+  "item.gems.green_panite_disk": "Green Painite Disk",
 
-  "item.gems.asterism": "Asterism ",
+  "item.gems.asterism": "Asterism",
   "item.gems.unbonded_asterism": "Unbonded Asterism",
   "block.gems.asterism_block": "Block of Asterism",
   "block.gems.asterism_ore": "Asterism Ore",
+  "item.gems.asterism_axe": "Asterism Axe",
+  "item.gems.asterism_pickaxe": "Asterism Pickaxe",
+  "item.gems.asterism_hoe": "Asterism Hoe",
+  "item.gems.asterism_shovel": "Asterism Shovel",
+  "item.gems.divine_crystal": "Divine Crystal",
+
+  "item.gems.asterism_t1_sword": "Sword of WillPower",
+  "item.gems.asterism_t2_sword": "Sword of Star Power",
+  "item.gems.asterism_t3_sword": "Blade of Sorrows",
+
+
+  "item.gems.star_of_willpower": "Star of Willpower",
+  "item.gems.star_of_darkness": "Star of Darkness",
+
+  "item.gems.amulet_of_power": "Amulet of Power",
+  "item.gems.amulet_of_space": "Amulet of Space",
+  "item.gems.amulet_of_time": "Amulet of Time",
+  "item.gems.amulet_of_hope": "Amulet of Hope",
+  "item.gems.amulet_of_reality": "Amulet of Reality",
+  "item.gems.amulet_of_worlds": "Amulet of Worlds",
+
+  "item.gems.aquamarine": "Aquamarine",
+  "item.gems.raw_aquamarine": "Raw Aquamarine",
+  "block.gems.aquamarine_block": "Block of Aquamarine",
+  "block.gems.aquamarine_ore": "Aquamarine Ore",
 
 
   "item.gems.end_gem_upgrade": "End Upgrade",

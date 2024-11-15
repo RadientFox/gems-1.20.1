@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "gems:amulet_of_power",
+    "gems:amulet_of_space",
+    "gems:amulet_of_time",
+    "gems:amulet_of_hope",
+    "gems:amulet_of_reality",
+    "gems:amulet_of_worlds"
+  ]
+}

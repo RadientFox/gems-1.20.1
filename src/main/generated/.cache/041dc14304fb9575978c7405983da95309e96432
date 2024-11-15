@@ -1,8 +1,9 @@
-// 1.20.1	2024-10-06T13:37:40.6715958	Gems/Block Loot Tables
+// 1.20.1	2024-11-13T23:28:25.52466	Gems/Block Loot Tables
 d1ffaa1db34bdcf09577907fafef137bfc79215f data\gems\loot_tables\blocks\asterism_block.json
 1982abfa911d688b57eb156cd071542e1848ff68 data\gems\loot_tables\blocks\sapphire_block.json
 4ce48486783c94920dc5b809fe7bca85839ed663 data\gems\loot_tables\blocks\pumpkin_debris.json
 022988ea3fd986a480021e6aa2605168a0359289 data\gems\loot_tables\blocks\sapphire_ore.json
+ef692c4ea5cf72d88bec92dbab85f8e0a7959c4c data\gems\loot_tables\blocks\aquamarine_ore.json
 a794495a4ea6b5b60c36d1a479130f7e13109230 data\gems\loot_tables\blocks\ruby_ore.json
 95521cba4a03cda65d482c9b92e23c8c7f6af8b2 data\gems\loot_tables\blocks\pietersite_ore.json
 0500df0bf5021cee777d65595ec430fc0741e4d6 data\gems\loot_tables\blocks\blue_obsidian.json
@@ -17,5 +18,6 @@ ca2ed3e55eaf39aafe8a99f4c26b10d5e439a2e0 data\gems\loot_tables\blocks\galaxium_b
 2caeec470b976153187a5dcf2b7b96aeb0e184bb data\gems\loot_tables\blocks\pumpkin_block.json
 4b5492bf54804e0745ae6230f6c3d730dd44ab97 data\gems\loot_tables\blocks\mushroom_ore.json
 561ed280ed4533c8c86937903acd1fd28451356d data\gems\loot_tables\blocks\heliotrope_ore.json
+8147f888f1ae29ea04464a15f600d87ed2c6ac3a data\gems\loot_tables\blocks\aquamarine_block.json
 c47463ee6291ace092120cff4bfb8fcd24153899 data\gems\loot_tables\blocks\pietersite_block.json
 4bb058c8fd58c2218d36eab3b1399783cae0c1d3 data\gems\loot_tables\blocks\spinel_ore.json

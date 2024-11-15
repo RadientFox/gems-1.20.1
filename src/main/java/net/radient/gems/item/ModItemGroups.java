@@ -105,11 +105,40 @@ entries.add(ModItems.GREEN_PAINITE);
 entries.add(ModItems.RAW_GREEN_PAINITE);
 entries.add(ModBlocks.GREEN_PAINITE_BLOCK);
 entries.add(ModBlocks.GREEN_PANITE_ORE);
+entries.add(ModItems.GREEN_PAINITE_SWORD);
+entries.add(ModItems.GREEN_PAINITE_AXE);
+entries.add(ModItems.GREEN_PAINITE_HOE);
+entries.add(ModItems.GREEN_PAINITE_SHOVEL);
+entries.add(ModItems.GREEN_PAINITE_PICKAXE);
+entries.add(ModItems.GREEN_DISK);
 
 entries.add(ModItems.ASTERISM);
 entries.add(ModItems.UNBONDED_ASTRISM);
 entries.add(ModBlocks.ASTERISM_BLOCK);
 entries.add(ModBlocks.ASTERISM_ORE);
+entries.add(ModItems.ASTERISM_T1_SWORD);
+entries.add(ModItems.ASTERISM_T2_SWORD);
+entries.add(ModItems.ASTERISM_T3_SWORD);
+entries.add(ModItems.ASTERISM_AXE);
+entries.add(ModItems.ASTERISM_HOE);
+entries.add(ModItems.ASTERISM_SHOVEL);
+entries.add(ModItems.ASTERISM_PICKAXE);
+entries.add(ModItems.DIVINE_CRYSTAL);
+
+entries.add(ModItems.STAR_OF_WILLPOWER);
+entries.add(ModItems.STAR_OF_DARKNESS);
+
+entries.add(ModItems.AMULET_OF_POWER);
+entries.add(ModItems.AMULET_OF_SPACE);
+entries.add(ModItems.AMULET_OF_TIME);
+entries.add(ModItems.AMULET_OF_HOPE);
+entries.add(ModItems.AMULET_OF_REALITY);
+entries.add(ModItems.AMULET_OF_WORLDS);
+
+entries.add(ModItems.AQUAMARINE);
+entries.add(ModItems.RAW_AQUAMARINE);
+entries.add(ModBlocks.AQUAMARINE_BLOCK);
+entries.add(ModBlocks.AQUAMARINE_ORE);
 
 
 entries.add(ModItems.OVERWORLD_GEM_UPGRADE);

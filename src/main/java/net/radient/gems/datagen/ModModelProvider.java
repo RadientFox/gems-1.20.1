@@ -45,6 +45,9 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.ASTERISM_BLOCK);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.ASTERISM_ORE);
 
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.AQUAMARINE_BLOCK);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.AQUAMARINE_ORE);
+
 
 
 
@@ -144,11 +147,38 @@ public class ModModelProvider extends FabricModelProvider {
       //green painite
         itemModelGenerator.register(ModItems.RAW_GREEN_PAINITE, Models.GENERATED);
         itemModelGenerator.register(ModItems.GREEN_PAINITE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.GREEN_PAINITE_PICKAXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.GREEN_PAINITE_SHOVEL, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.GREEN_PAINITE_HOE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.GREEN_PAINITE_SWORD, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.GREEN_PAINITE_AXE, Models.HANDHELD);
+
 
       //ASTERISM
         itemModelGenerator.register(ModItems.UNBONDED_ASTRISM, Models.GENERATED);
         itemModelGenerator.register(ModItems.ASTERISM, Models.GENERATED);
+        itemModelGenerator.register(ModItems.ASTERISM_PICKAXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.ASTERISM_SHOVEL, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.ASTERISM_HOE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.ASTERISM_AXE, Models.HANDHELD);
 
+        itemModelGenerator.register(ModItems.DIVINE_CRYSTAL, Models.GENERATED);
+        itemModelGenerator.register(ModItems.STAR_OF_WILLPOWER, Models.GENERATED);
+        itemModelGenerator.register(ModItems.STAR_OF_DARKNESS, Models.GENERATED);
+
+        itemModelGenerator.register(ModItems.AMULET_OF_POWER, Models.GENERATED);
+        itemModelGenerator.register(ModItems.AMULET_OF_SPACE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.AMULET_OF_TIME, Models.GENERATED);
+        itemModelGenerator.register(ModItems.AMULET_OF_HOPE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.AMULET_OF_REALITY, Models.GENERATED);
+        itemModelGenerator.register(ModItems.AMULET_OF_WORLDS, Models.GENERATED);
+
+
+
+
+        //Aquamarine
+        itemModelGenerator.register(ModItems.RAW_AQUAMARINE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.AQUAMARINE, Models.GENERATED);
 
 
     }
